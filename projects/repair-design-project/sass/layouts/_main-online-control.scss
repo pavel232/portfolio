@@ -1,0 +1,216 @@
+.main__online-control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 1100px;
+
+    &__background {
+        width: 100%;
+        height: 315px;
+        background-color: #131313;
+    }
+
+    &__navigation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 816px;
+        height: 1100px;
+        margin-top: -315px;
+
+        &__headline {
+            width: 196px;
+            height: 67px;
+        }
+
+        &__video {
+            width: 816px;
+            height: 434px;
+            margin-top: 31px;
+            background-image: url("/img/online-control-navigation-video.png")
+        }
+
+        &__separator {
+            width: 55px;
+            height: 2px;
+            margin-top: 62px;
+            background-color: #E3B873;
+        }
+
+        &__text {
+            width: 681px;
+            height: 131px;
+            margin-top: 35px;
+            font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+            font-size: 16px;
+            line-height: 34px;
+            text-align: center;
+            color: #363636;
+        }
+
+        &__submit {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            width: 769px;
+            height: 103px;
+            margin-top: 91px;
+
+            &--bar {
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                height: 51px;
+
+                & p {
+                    font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+                    font-size: 15px;
+                    line-height: 20px;
+                    color: rgba(54, 54, 54, 0.5);
+                }
+
+                &--input {
+                    width: 100%;
+                    font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+                    font-size: 18px;
+                    line-height: 24px;
+                    border: none;
+                    border-bottom: 1px solid #363636;
+                }
+
+                &--name {
+                    width: 231px;
+                    height: 45px;
+                }
+
+                &--phone {
+                    width: 231px;
+                    height: 45px;
+                }
+
+                &--button {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 200px;
+                    height: 51px;
+                    background: #E3B873;
+                    border: none;
+                    box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
+                    border-radius: 2px;
+                    font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+                    font-size: 20px;
+                    line-height: 26px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                    text-decoration: none;
+                }
+
+
+            }
+
+            &--checkbox {
+                display: flex;
+                align-items: center;
+
+                & input {
+                    width: 18px;
+                    height: 18px;
+                }
+            
+                & span {
+                    font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+                    font-size: 16px;
+                    line-height: 22px;
+                    color: #181818;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .main__online-control {
+        height: 830px;
+        background-color: #131313;
+
+        &__background {
+            display: none;
+        }
+
+        &__navigation {
+            width: 340px;
+            margin-top: 0px;
+
+            &__video {
+                width: 340px;
+                height: 207px;
+            }
+
+            &__separator {
+                margin-top: 28px;
+            }
+
+            &__text {
+                width: 340px;
+                height: 150px;
+                margin-top: 21px;
+                font-size: 13px;
+                line-height: 24px;
+                color: white;
+            }
+
+            &__submit {
+                margin-top: 61px;
+                width: 340px;
+                height: 286px;
+
+                &--bar {
+                    justify-content: center;
+                    flex-wrap: wrap;
+
+                    & p {
+                        color: rgba(255, 255, 255, 0.5);
+                    }
+
+                    &--input {
+                        width: 100%;
+                        font-size: 18px;
+                        line-height: 24px;
+                        border: none;
+                        background-color: #131313;
+                        border-bottom: 1px solid white;
+                    }
+
+                    &--name {
+                        width: 100%;
+                    }
+    
+                    &--phone {
+                        margin-top: 63px;
+                        width: 100%;
+                    }
+
+                    &--button {
+                        width: 340px;
+                        margin-top: 85px;
+                    }
+                }
+
+                &--checkbox {
+                    position: relative;
+                    top: -85px;
+                    width: 340px;
+                
+                    & span {
+                        font-size: 14px;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}

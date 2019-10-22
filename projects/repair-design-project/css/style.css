@@ -1,0 +1,1880 @@
+.header {
+  display: flex;
+  width: 100%;
+  min-height: 83px;
+  height: 100%;
+  background-color: #131313;
+  align-items: center; }
+  .header__navigation {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 82px;
+    margin-right: 82px; }
+    .header__navigation__heading {
+      font-family: Calibri, 'Trebuchet MS', sans-serif;
+      color: #E3B873;
+      font-weight: 600;
+      font-size: 18px; }
+    .header__navigation__menu {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap; }
+      .header__navigation__menu--item {
+        color: white;
+        font-family: Calibri, 'Trebuchet MS', sans-serif;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-decoration: none; }
+        .header__navigation__menu--item:hover {
+          color: #E3B873; }
+    .header__navigation__phone {
+      display: flex;
+      align-items: center; }
+      .header__navigation__phone--number {
+        color: #E3B873;
+        text-decoration: underline;
+        font-family: Calibri, 'Trebuchet MS', sans-serif; }
+      .header__navigation__phone--button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 161px;
+        height: 37px;
+        background-color: #E3B873;
+        border-radius: 2px;
+        margin-left: 20px; }
+        .header__navigation__phone--button--text {
+          color: white;
+          font-family: Calibri, 'Trebuchet MS', sans-serif;
+          text-decoration: none; }
+
+@media screen and (max-width: 375px) {
+  .header {
+    width: 100%;
+    height: 57px; }
+    .header__navigation {
+      margin-left: 18px;
+      margin-right: 18px; }
+      .header__navigation__heading {
+        font-size: 12px; }
+      .header__navigation__menu {
+        display: none; }
+      .header__navigation__phone--number {
+        color: white;
+        text-decoration: none;
+        font-size: 12px;
+        font-family: Calibri, 'Trebuchet MS', sans-serif; }
+      .header__navigation__phone--button {
+        display: none; } }
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: white; }
+
+.main__head {
+  width: 100%;
+  height: 100%;
+  background-color: #131313; }
+  .main__head__main-block {
+    display: flex;
+    width: 100%;
+    height: 707px; }
+    .main__head__main-block__instagram {
+      display: flex;
+      flex-direction: column;
+      width: 6vw;
+      background-color: #131313;
+      align-items: center;
+      justify-content: center; }
+      .main__head__main-block__instagram--text {
+        font-family: Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 600;
+        rotate: 90deg;
+        color: #E3B873;
+        transform: rotate(90deg);
+        text-decoration: none; }
+      .main__head__main-block__instagram--line {
+        width: 2px;
+        height: 50px;
+        border-radius: 2px;
+        background-color: #E3B873;
+        margin-top: 45px; }
+    .main__head__main-block__background {
+      display: flex;
+      align-items: center;
+      width: 96vw;
+      background-image: url(../img/main-head-background.png); }
+      .main__head__main-block__background__turnkey-repair {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        max-width: 600px;
+        margin-left: 60px; }
+        .main__head__main-block__background__turnkey-repair--headline {
+          font-family: 'Yeseva One';
+          font-style: normal;
+          font-weight: normal;
+          font-size: 40px;
+          line-height: 53px;
+          text-transform: uppercase;
+          color: white; }
+          .main__head__main-block__background__turnkey-repair--headline span {
+            color: #E3B873; }
+        .main__head__main-block__background__turnkey-repair--text {
+          margin-top: 30px;
+          font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+          font-size: 22px;
+          line-height: 30px;
+          font-weight: 200;
+          color: #FFFFFF; }
+        .main__head__main-block__background__turnkey-repair--buttons {
+          display: flex;
+          justify-content: space-between;
+          width: 434px;
+          height: 51px;
+          margin-top: 40px; }
+          .main__head__main-block__background__turnkey-repair--buttons--calculate {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 207px;
+            height: 51px;
+            border: 1px solid white;
+            box-sizing: border-box;
+            border-radius: 2px;
+            cursor: pointer; }
+            .main__head__main-block__background__turnkey-repair--buttons--calculate:hover {
+              background-color: #E3B873;
+              border: none; }
+            .main__head__main-block__background__turnkey-repair--buttons--calculate a {
+              color: white;
+              font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+              font-size: 13px;
+              line-height: 15px; }
+            .main__head__main-block__background__turnkey-repair--buttons--calculate a:link {
+              text-decoration: none;
+              color: white; }
+            .main__head__main-block__background__turnkey-repair--buttons--calculate a:visited {
+              text-decoration: none;
+              color: white; }
+          .main__head__main-block__background__turnkey-repair--buttons--submit {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 207px;
+            height: 51px;
+            border: 1px solid white;
+            box-sizing: border-box;
+            border-radius: 2px;
+            cursor: pointer; }
+            .main__head__main-block__background__turnkey-repair--buttons--submit:hover {
+              background-color: #E3B873;
+              border: none; }
+            .main__head__main-block__background__turnkey-repair--buttons--submit a {
+              color: white;
+              font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+              font-size: 13px;
+              line-height: 15px; }
+            .main__head__main-block__background__turnkey-repair--buttons--submit a:link {
+              text-decoration: none;
+              color: white; }
+            .main__head__main-block__background__turnkey-repair--buttons--submit a:visited {
+              text-decoration: none;
+              color: white; }
+  .main__head__scroll-down {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -49px;
+    width: 247px;
+    height: 97px;
+    background-color: #131313;
+    z-index: 2; }
+    .main__head__scroll-down--text {
+      font-size: 14px;
+      font-family: 'Yeseva One', 'Times New Roman', serif;
+      color: white;
+      text-decoration: none;
+      padding-right: 12px; }
+
+@media screen and (max-width: 375px) {
+  .main__head__main-block {
+    height: 476px; }
+    .main__head__main-block__instagram {
+      display: none; }
+    .main__head__main-block__background {
+      width: 375px;
+      height: 476px;
+      align-items: flex-start; }
+      .main__head__main-block__background__turnkey-repair {
+        width: 375px;
+        margin-top: 85px;
+        margin-left: 18px;
+        margin-right: 18px; }
+        .main__head__main-block__background__turnkey-repair--headline {
+          width: 339px;
+          height: 60px;
+          line-height: 31px;
+          font-size: 23px; }
+        .main__head__main-block__background__turnkey-repair--text {
+          width: 339px;
+          height: 94px;
+          margin-top: 16px;
+          font-size: 15px;
+          line-height: 24px; }
+        .main__head__main-block__background__turnkey-repair--buttons {
+          flex-direction: column;
+          width: 339px;
+          height: 128px;
+          margin-top: 32px; }
+          .main__head__main-block__background__turnkey-repair--buttons--calculate {
+            width: 100%; }
+          .main__head__main-block__background__turnkey-repair--buttons--submit {
+            width: 100%;
+            margin-top: 26px; }
+  .main__head__scroll-down {
+    display: none; } }
+
+@media screen and (max-width: 1024px) {
+  .main__head__main-block__background__turnkey-repair {
+    width: 100%; }
+    .main__head__main-block__background__turnkey-repair--headline {
+      width: 100%; }
+    .main__head__main-block__background__turnkey-repair--buttons {
+      flex-wrap: wrap; } }
+
+.main__completed-projects {
+  display: flex;
+  width: 100%;
+  height: 750px;
+  background-color: #131313;
+  margin-top: -97px; }
+  .main__completed-projects__text {
+    min-width: 442px;
+    height: 483px;
+    margin-left: 101px;
+    margin-top: 176px; }
+    .main__completed-projects__text--heading {
+      display: flex; }
+      .main__completed-projects__text--heading h2 {
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 27px;
+        line-height: 37px;
+        letter-spacing: -0.07em;
+        text-transform: uppercase;
+        color: #E3B873; }
+      .main__completed-projects__text--heading--line {
+        width: 92px;
+        height: 2px;
+        margin-top: 55px;
+        margin-left: 10px;
+        background-color: #E3B873; }
+    .main__completed-projects__text--article {
+      margin-top: 24px; }
+      .main__completed-projects__text--article p {
+        font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+        font-size: 15px;
+        line-height: 29px;
+        color: white; }
+    .main__completed-projects__text--sub {
+      display: flex;
+      margin-top: 41px; }
+      .main__completed-projects__text--sub--right {
+        margin-left: 29px; }
+      .main__completed-projects__text--sub h3 {
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+        text-transform: uppercase;
+        color: #E3B873; }
+      .main__completed-projects__text--sub p {
+        font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+        font-size: 15px;
+        line-height: 20px;
+        color: white;
+        margin-bottom: 41px; }
+    .main__completed-projects__text--nav {
+      display: flex;
+      justify-content: space-between;
+      width: 206px;
+      height: 13px;
+      margin-top: 55px; }
+      .main__completed-projects__text--nav--prev {
+        cursor: pointer; }
+      .main__completed-projects__text--nav--dot--active {
+        width: 9px;
+        height: 9px;
+        border-radius: 30px;
+        background-color: white; }
+      .main__completed-projects__text--nav--dot {
+        width: 9px;
+        height: 9px;
+        border-radius: 30px;
+        background-color: rgba(255, 255, 255, 0.3); }
+      .main__completed-projects__text--nav--next {
+        cursor: pointer; }
+  .main__completed-projects__pictures {
+    width: 100%;
+    height: 552px;
+    overflow: hidden;
+    margin-left: 50px;
+    margin-top: 107px; }
+    .main__completed-projects__pictures__navigation {
+      display: flex;
+      justify-content: space-between;
+      width: 623px;
+      height: 24px; }
+      .main__completed-projects__pictures__navigation--text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%; }
+        .main__completed-projects__pictures__navigation--text a {
+          color: white;
+          opacity: 0.3;
+          text-decoration: none;
+          font-family: 'Yeseva One';
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 19px;
+          text-transform: uppercase; }
+        .main__completed-projects__pictures__navigation--text div {
+          opacity: 0;
+          width: 100%;
+          height: 1px;
+          background-color: #E3B873; }
+        .main__completed-projects__pictures__navigation--text:hover a {
+          color: #E3B873;
+          opacity: 1; }
+        .main__completed-projects__pictures__navigation--text:hover div {
+          opacity: 1; }
+    .main__completed-projects__pictures__window {
+      display: flex;
+      height: 482px;
+      margin-top: 45px; }
+      .main__completed-projects__pictures__window--next {
+        width: 85px;
+        height: 85px;
+        position: sticky;
+        top: 260px;
+        right: 0; }
+      .main__completed-projects__pictures__window--prev {
+        display: none; }
+      .main__completed-projects__pictures__window--2 {
+        margin-left: 21px; }
+
+@media screen and (max-width: 375px) {
+  .main__completed-projects {
+    height: 691px;
+    margin-top: 0px;
+    flex-direction: column; }
+    .main__completed-projects__text {
+      width: 375px;
+      min-width: 375px;
+      margin-left: 0px;
+      margin-top: 36px;
+      z-index: 0; }
+      .main__completed-projects__text--heading {
+        justify-content: center; }
+        .main__completed-projects__text--heading h2 {
+          font-size: 22px;
+          line-height: 30px;
+          letter-spacing: -0.07em;
+          text-transform: uppercase;
+          color: #E3B873;
+          text-align: center; }
+        .main__completed-projects__text--heading--line {
+          display: none; }
+      .main__completed-projects__text--article {
+        width: 340px;
+        margin-top: 22px;
+        margin-left: 18px; }
+        .main__completed-projects__text--article p {
+          font-size: 14px;
+          line-height: 22px; }
+      .main__completed-projects__text--sub {
+        width: 340px;
+        margin-top: 250px;
+        margin-left: 18px; }
+      .main__completed-projects__text--nav {
+        display: none; }
+    .main__completed-projects__pictures {
+      width: 340px;
+      height: 242px;
+      margin-top: -330px;
+      margin-left: 18px; }
+      .main__completed-projects__pictures__navigation {
+        display: none; }
+      .main__completed-projects__pictures__window {
+        width: 340px;
+        height: 242px;
+        z-index: 2; }
+        .main__completed-projects__pictures__window--1 {
+          width: 340px;
+          height: 242px; }
+        .main__completed-projects__pictures__window--2 {
+          display: none; }
+        .main__completed-projects__pictures__window--next {
+          width: 36px;
+          height: 36px;
+          top: 125px;
+          right: 0; }
+          .main__completed-projects__pictures__window--next img {
+            width: 36px;
+            height: 36px; }
+        .main__completed-projects__pictures__window--prev {
+          display: inline;
+          position: relative;
+          width: 43px;
+          height: 43px;
+          top: 76px;
+          left: -373px; }
+          .main__completed-projects__pictures__window--prev img {
+            width: 43px;
+            height: 43px; } }
+
+.main__online-control {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 1100px; }
+  .main__online-control__background {
+    width: 100%;
+    height: 315px;
+    background-color: #131313; }
+  .main__online-control__navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 816px;
+    height: 1100px;
+    margin-top: -315px; }
+    .main__online-control__navigation__headline {
+      width: 196px;
+      height: 67px; }
+    .main__online-control__navigation__video {
+      width: 816px;
+      height: 434px;
+      margin-top: 31px;
+      background-image: url("/img/online-control-navigation-video.png"); }
+    .main__online-control__navigation__separator {
+      width: 55px;
+      height: 2px;
+      margin-top: 62px;
+      background-color: #E3B873; }
+    .main__online-control__navigation__text {
+      width: 681px;
+      height: 131px;
+      margin-top: 35px;
+      font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+      font-size: 16px;
+      line-height: 34px;
+      text-align: center;
+      color: #363636; }
+    .main__online-control__navigation__submit {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      width: 769px;
+      height: 103px;
+      margin-top: 91px; }
+      .main__online-control__navigation__submit--bar {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 51px; }
+        .main__online-control__navigation__submit--bar p {
+          font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+          font-size: 15px;
+          line-height: 20px;
+          color: rgba(54, 54, 54, 0.5); }
+        .main__online-control__navigation__submit--bar--input {
+          width: 100%;
+          font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+          font-size: 18px;
+          line-height: 24px;
+          border: none;
+          border-bottom: 1px solid #363636; }
+        .main__online-control__navigation__submit--bar--name {
+          width: 231px;
+          height: 45px; }
+        .main__online-control__navigation__submit--bar--phone {
+          width: 231px;
+          height: 45px; }
+        .main__online-control__navigation__submit--bar--button {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 200px;
+          height: 51px;
+          background: #E3B873;
+          border: none;
+          box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
+          border-radius: 2px;
+          font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+          font-size: 20px;
+          line-height: 26px;
+          text-align: center;
+          text-transform: uppercase;
+          color: #FFFFFF;
+          text-decoration: none; }
+      .main__online-control__navigation__submit--checkbox {
+        display: flex;
+        align-items: center; }
+        .main__online-control__navigation__submit--checkbox input {
+          width: 18px;
+          height: 18px; }
+        .main__online-control__navigation__submit--checkbox span {
+          font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+          font-size: 16px;
+          line-height: 22px;
+          color: #181818; }
+
+@media screen and (max-width: 375px) {
+  .main__online-control {
+    height: 830px;
+    background-color: #131313; }
+    .main__online-control__background {
+      display: none; }
+    .main__online-control__navigation {
+      width: 340px;
+      margin-top: 0px; }
+      .main__online-control__navigation__video {
+        width: 340px;
+        height: 207px; }
+      .main__online-control__navigation__separator {
+        margin-top: 28px; }
+      .main__online-control__navigation__text {
+        width: 340px;
+        height: 150px;
+        margin-top: 21px;
+        font-size: 13px;
+        line-height: 24px;
+        color: white; }
+      .main__online-control__navigation__submit {
+        margin-top: 61px;
+        width: 340px;
+        height: 286px; }
+        .main__online-control__navigation__submit--bar {
+          justify-content: center;
+          flex-wrap: wrap; }
+          .main__online-control__navigation__submit--bar p {
+            color: rgba(255, 255, 255, 0.5); }
+          .main__online-control__navigation__submit--bar--input {
+            width: 100%;
+            font-size: 18px;
+            line-height: 24px;
+            border: none;
+            background-color: #131313;
+            border-bottom: 1px solid white; }
+          .main__online-control__navigation__submit--bar--name {
+            width: 100%; }
+          .main__online-control__navigation__submit--bar--phone {
+            margin-top: 63px;
+            width: 100%; }
+          .main__online-control__navigation__submit--bar--button {
+            width: 340px;
+            margin-top: 85px; }
+        .main__online-control__navigation__submit--checkbox {
+          position: relative;
+          top: -85px;
+          width: 340px; }
+          .main__online-control__navigation__submit--checkbox span {
+            font-size: 14px;
+            color: white; } }
+
+.main__types-of-repair {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 2790px; }
+  .main__types-of-repair__headline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 257px;
+    height: 67px; }
+  .main__types-of-repair__repair-types {
+    display: flex;
+    justify-content: space-between;
+    width: 1236px;
+    height: 608px;
+    margin-top: 31px; }
+    .main__types-of-repair__repair-types--list {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 330px;
+      height: 313px;
+      margin-top: -127px;
+      background-color: white; }
+      .main__types-of-repair__repair-types--list h3 {
+        margin-top: 25px;
+        margin-left: 34px;
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+        color: #363636; }
+      .main__types-of-repair__repair-types--list ul {
+        margin-top: -10px;
+        margin-left: 34px;
+        font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+        font-size: 15px;
+        line-height: 25px;
+        color: #959595; }
+      .main__types-of-repair__repair-types--list--button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 228px;
+        height: 54px;
+        background-color: #E3B873; }
+        .main__types-of-repair__repair-types--list--button a {
+          text-decoration: none;
+          font-family: 'Yeseva One';
+          font-style: normal;
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 25px;
+          text-transform: uppercase;
+          color: #FFFFFF; }
+    .main__types-of-repair__repair-types--left {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 392px;
+      height: 100%; }
+    .main__types-of-repair__repair-types--center {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 392px;
+      height: 100%; }
+    .main__types-of-repair__repair-types--right {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 392px;
+      height: 100%; }
+  .main__types-of-repair__request {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 726px;
+    margin-top: 124px; }
+    .main__types-of-repair__request__image {
+      display: flex;
+      overflow: hidden;
+      width: 835px;
+      height: 692px;
+      background-repeat: no-repeat;
+      background-image: url(../img/repair-request-image.png); }
+      .main__types-of-repair__request__image--border {
+        width: 691px;
+        height: 636px;
+        margin-left: -200px;
+        margin-top: 95px;
+        border: 3px solid #E3B873;
+        border-radius: 100%; }
+      .main__types-of-repair__request__image--info {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        height: 440px;
+        margin-left: 537px;
+        margin-top: 45px; }
+        .main__types-of-repair__request__image--info--text {
+          margin-left: 10px; }
+        .main__types-of-repair__request__image--info--01 {
+          display: flex; }
+          .main__types-of-repair__request__image--info--01 div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 91px;
+            height: 55px;
+            background-color: white;
+            border-radius: 100%; }
+            .main__types-of-repair__request__image--info--01 div p {
+              width: 42px;
+              height: 42px;
+              background-color: #E3B873;
+              border-radius: 100%;
+              font-family: 'Yeseva One';
+              font-style: normal;
+              font-weight: normal;
+              font-size: 18px;
+              line-height: 25px;
+              text-align: center;
+              color: #FFFFFF;
+              display: flex;
+              justify-content: center;
+              align-items: center; }
+        .main__types-of-repair__request__image--info--02 {
+          display: flex;
+          margin-top: 72px;
+          margin-left: 101px; }
+          .main__types-of-repair__request__image--info--02 div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 55px;
+            height: 55px;
+            background-color: white;
+            border-radius: 100%; }
+            .main__types-of-repair__request__image--info--02 div p {
+              width: 42px;
+              height: 42px;
+              background-color: #E3B873;
+              border-radius: 100%;
+              font-family: 'Yeseva One';
+              font-style: normal;
+              font-weight: normal;
+              font-size: 18px;
+              line-height: 25px;
+              text-align: center;
+              color: #FFFFFF;
+              display: flex;
+              justify-content: center;
+              align-items: center; }
+        .main__types-of-repair__request__image--info--03 {
+          display: flex;
+          margin-top: 108px;
+          margin-left: 127px; }
+          .main__types-of-repair__request__image--info--03 div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 55px;
+            height: 55px;
+            background-color: white;
+            border-radius: 100%; }
+            .main__types-of-repair__request__image--info--03 div p {
+              width: 42px;
+              height: 42px;
+              background-color: #E3B873;
+              border-radius: 100%;
+              font-family: 'Yeseva One';
+              font-style: normal;
+              font-weight: normal;
+              font-size: 18px;
+              line-height: 25px;
+              text-align: center;
+              color: #FFFFFF;
+              display: flex;
+              justify-content: center;
+              align-items: center; }
+        .main__types-of-repair__request__image--info--04 {
+          display: flex;
+          margin-top: 103px;
+          margin-left: 51px; }
+          .main__types-of-repair__request__image--info--04 div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 55px;
+            height: 55px;
+            background-color: white;
+            border-radius: 100%; }
+            .main__types-of-repair__request__image--info--04 div p {
+              width: 42px;
+              height: 42px;
+              background-color: #E3B873;
+              border-radius: 100%;
+              font-family: 'Yeseva One';
+              font-style: normal;
+              font-weight: normal;
+              font-size: 18px;
+              line-height: 25px;
+              text-align: center;
+              color: #FFFFFF;
+              display: flex;
+              justify-content: center;
+              align-items: center; }
+        .main__types-of-repair__request__image--info--text {
+          display: flex;
+          align-items: center;
+          font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+          font-size: 18px;
+          line-height: 21px;
+          color: #363636; }
+    .main__types-of-repair__request__form {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 506px;
+      height: 620px;
+      margin-top: 106px;
+      margin-left: -40px; }
+      .main__types-of-repair__request__form--submit {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 506px;
+        height: 509px;
+        background-color: black; }
+        .main__types-of-repair__request__form--submit h3 {
+          width: 297px;
+          height: 47px;
+          margin-top: 28px;
+          font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+          font-size: 20px;
+          line-height: 25px;
+          text-align: center;
+          color: #FFFFFF; }
+        .main__types-of-repair__request__form--submit--element {
+          margin-top: 39px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          width: 408px;
+          height: 49px; }
+        .main__types-of-repair__request__form--submit p {
+          font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+          font-size: 15px;
+          line-height: 20px;
+          color: rgba(255, 255, 255, 0.5); }
+        .main__types-of-repair__request__form--submit--input {
+          width: 100%;
+          font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+          font-size: 18px;
+          line-height: 24px;
+          color: white;
+          background-color: black;
+          border: none;
+          border-bottom: 1px solid #363636; }
+        .main__types-of-repair__request__form--submit--checkbox {
+          display: flex;
+          align-items: center;
+          width: 408px;
+          height: 18px;
+          margin-top: 16px; }
+          .main__types-of-repair__request__form--submit--checkbox input {
+            width: 18px;
+            height: 18px; }
+          .main__types-of-repair__request__form--submit--checkbox span {
+            font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+            font-size: 16px;
+            line-height: 22px;
+            color: #FFFFFF; }
+        .main__types-of-repair__request__form--submit--button {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 213px;
+          height: 51px;
+          background: #E3B873;
+          border: none;
+          box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
+          font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+          font-size: 20px;
+          line-height: 26px;
+          text-align: center;
+          text-transform: uppercase;
+          color: #FFFFFF;
+          text-decoration: none;
+          margin-top: 39px;
+          margin-left: 200px; }
+      .main__types-of-repair__request__form img {
+        margin-bottom: -30px; }
+  .main__types-of-repair__styles {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 1018px;
+    margin-top: 130px;
+    background-image: url(../img/styles-background.png);
+    background-repeat: no-repeat;
+    background-position-y: 113px; }
+    .main__types-of-repair__styles__text {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 411px;
+      height: 630px;
+      margin-top: 100px; }
+      .main__types-of-repair__styles__text--heading {
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 27px;
+        line-height: 37px;
+        text-transform: uppercase;
+        color: #E3B873; }
+        .main__types-of-repair__styles__text--heading--mobile {
+          display: none; }
+      .main__types-of-repair__styles__text--elements {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 516px; }
+        .main__types-of-repair__styles__text--elements a {
+          width: fit-content;
+          font-family: calibri;
+          font-size: 20px;
+          line-height: 34px;
+          color: #FFFFFF;
+          text-decoration: none; }
+          .main__types-of-repair__styles__text--elements a:hover {
+            color: #E3B873;
+            border-bottom: 1px solid #E3B873; }
+    .main__types-of-repair__styles__images {
+      display: flex;
+      justify-content: space-between;
+      width: 751px;
+      height: 1018px; }
+      .main__types-of-repair__styles__images--left {
+        width: 354px;
+        height: 947px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 72px; }
+      .main__types-of-repair__styles__images--right {
+        width: 354px;
+        height: 947px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; }
+
+@media screen and (max-width: 375px) {
+  .main__types-of-repair {
+    margin-top: 58px;
+    height: 2030px; }
+    .main__types-of-repair__repair-types {
+      flex-wrap: wrap;
+      width: 340px; }
+      .main__types-of-repair__repair-types--left {
+        align-items: flex-start;
+        width: 340px;
+        height: 484px; }
+        .main__types-of-repair__repair-types--left img {
+          width: 340px;
+          height: 365px; }
+      .main__types-of-repair__repair-types--center {
+        align-items: flex-start;
+        width: 340px;
+        height: 484px;
+        margin-top: 60px; }
+        .main__types-of-repair__repair-types--center img {
+          width: 340px;
+          height: 365px; }
+      .main__types-of-repair__repair-types--right {
+        align-items: flex-start;
+        width: 340px;
+        height: 484px;
+        margin-top: 60px; }
+        .main__types-of-repair__repair-types--right img {
+          width: 340px;
+          height: 365px; }
+      .main__types-of-repair__repair-types--list {
+        width: 270px; }
+        .main__types-of-repair__repair-types--list h3 {
+          margin-left: 31px;
+          font-size: 15px;
+          line-height: 21px; }
+        .main__types-of-repair__repair-types--list ul {
+          font-size: 13px;
+          line-height: 19px; }
+    .main__types-of-repair__request {
+      display: none; }
+    .main__types-of-repair__styles {
+      margin-top: 760px;
+      background-image: none; }
+      .main__types-of-repair__styles__text {
+        text-align: center;
+        width: 100%;
+        align-items: center;
+        justify-content: end;
+        margin-top: 220px; }
+        .main__types-of-repair__styles__text--heading--mobile {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 340px;
+          height: 242px;
+          background-image: url(/img/mobile-fantasies-img.png);
+          z-index: 2; }
+          .main__types-of-repair__styles__text--heading--mobile--next {
+            width: 36px;
+            height: 36px; }
+          .main__types-of-repair__styles__text--heading--mobile--prev {
+            width: 43px;
+            height: 43px; }
+        .main__types-of-repair__styles__text--elements {
+          display: none; }
+      .main__types-of-repair__styles__images {
+        display: none; } }
+
+.main__design-project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 1680px;
+  background-color: #131313; }
+  .main__design-project__top-background {
+    width: 100%;
+    height: 466px;
+    background-color: white; }
+  .main__design-project__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1240px;
+    height: 1680px;
+    margin-top: -466px; }
+    .main__design-project__body__headline {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 257px;
+      height: 67px; }
+    .main__design-project__body__text {
+      width: 763px;
+      height: 57px;
+      font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+      line-height: 27px;
+      text-align: center;
+      color: #363636;
+      margin-top: 24px; }
+    .main__design-project__body__types {
+      display: flex;
+      justify-content: space-between;
+      width: 1236px;
+      height: 735px;
+      margin-top: 39px; }
+      .main__design-project__body__types--list-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 330px;
+        height: 211px;
+        margin-top: -127px;
+        background-color: white;
+        z-index: 2; }
+        .main__design-project__body__types--list-left h3 {
+          margin-top: 25px;
+          margin-left: 34px;
+          font-family: 'Yeseva One';
+          font-style: normal;
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 25px;
+          color: #363636; }
+        .main__design-project__body__types--list-left ul {
+          margin-top: -10px;
+          margin-left: 34px;
+          font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+          font-size: 15px;
+          line-height: 25px;
+          color: #959595; }
+      .main__design-project__body__types--list-center {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 330px;
+        height: 286px;
+        margin-top: -127px;
+        background-color: white;
+        z-index: 2; }
+        .main__design-project__body__types--list-center h3 {
+          margin-top: 25px;
+          margin-left: 34px;
+          font-family: 'Yeseva One';
+          font-style: normal;
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 25px;
+          color: #363636; }
+        .main__design-project__body__types--list-center ul {
+          margin-top: -10px;
+          margin-left: 34px;
+          font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+          font-size: 15px;
+          line-height: 25px;
+          color: #959595; }
+      .main__design-project__body__types--list-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 330px;
+        height: 414px;
+        margin-top: -127px;
+        background-color: white;
+        z-index: 2; }
+        .main__design-project__body__types--list-right h3 {
+          margin-top: 25px;
+          margin-left: 34px;
+          font-family: 'Yeseva One';
+          font-style: normal;
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 25px;
+          color: #363636; }
+        .main__design-project__body__types--list-right ul {
+          margin-top: -10px;
+          margin-left: 34px;
+          font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+          font-size: 15px;
+          line-height: 25px;
+          color: #959595; }
+      .main__design-project__body__types--button {
+        position: relative;
+        top: 27px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 228px;
+        height: 54px;
+        background-color: #E3B873; }
+        .main__design-project__body__types--button a {
+          text-decoration: none;
+          font-family: 'Yeseva One';
+          font-style: normal;
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 25px;
+          text-transform: uppercase;
+          color: #FFFFFF; }
+      .main__design-project__body__types--left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 392px;
+        height: 100%; }
+      .main__design-project__body__types--center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 392px;
+        height: 100%; }
+      .main__design-project__body__types--right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 392px;
+        height: 100%; }
+    .main__design-project__body__working {
+      display: flex;
+      justify-content: space-between;
+      width: 1236px;
+      height: 686px;
+      margin-top: -27px; }
+      .main__design-project__body__working--left {
+        width: 337px;
+        height: 590px; }
+        .main__design-project__body__working--left--hwaw {
+          font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+          font-size: 15px;
+          line-height: 21px;
+          text-transform: uppercase;
+          color: #FFFFFF; }
+        .main__design-project__body__working--left--heading {
+          display: flex;
+          justify-content: space-between;
+          width: 304px;
+          height: 84px; }
+          .main__design-project__body__working--left--heading h3 {
+            padding-top: 18px;
+            font-family: 'Yeseva One';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 27px;
+            line-height: 37px;
+            text-transform: uppercase;
+            color: #E3B873; }
+          .main__design-project__body__working--left--heading div {
+            width: 92px;
+            height: 1px;
+            margin-top: 70px;
+            background-color: #E3B873; }
+        .main__design-project__body__working--left--1-6 {
+          width: 337px;
+          height: 323px;
+          margin-top: 92px; }
+          .main__design-project__body__working--left--1-6 h3 {
+            font-family: 'Yeseva One';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 25px;
+            text-transform: uppercase;
+            color: #FFFFFF; }
+          .main__design-project__body__working--left--1-6 h2 {
+            margin-top: 22px;
+            font-family: 'Yeseva One';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 23px;
+            text-transform: uppercase;
+            color: #E3B873; }
+          .main__design-project__body__working--left--1-6 p {
+            margin-top: 16px;
+            font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+            font-size: 13px;
+            line-height: 25px;
+            color: #FFFFFF; }
+        .main__design-project__body__working--left--nav {
+          display: flex;
+          justify-content: space-between;
+          width: 287px;
+          height: 13px;
+          margin-top: 55px; }
+          .main__design-project__body__working--left--nav--prev {
+            cursor: pointer; }
+          .main__design-project__body__working--left--nav--dot--active {
+            width: 9px;
+            height: 9px;
+            border-radius: 30px;
+            background-color: white; }
+          .main__design-project__body__working--left--nav--dot {
+            width: 9px;
+            height: 9px;
+            border-radius: 30px;
+            background-color: rgba(255, 255, 255, 0.3); }
+          .main__design-project__body__working--left--nav--next {
+            cursor: pointer; }
+      .main__design-project__body__working--right {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 766px;
+        height: 686px; }
+        .main__design-project__body__working--right--text {
+          margin-top: 87px;
+          display: flex;
+          justify-content: space-between;
+          width: 766px;
+          height: 178px; }
+          .main__design-project__body__working--right--text--column {
+            display: flex;
+            flex-direction: column;
+            width: 140px;
+            height: 178px; }
+            .main__design-project__body__working--right--text--column--selected {
+              font-family: 'Yeseva One';
+              font-style: normal;
+              font-weight: normal;
+              font-size: 15px;
+              line-height: 21px;
+              text-transform: uppercase;
+              color: #FFFFFF;
+              border-bottom: 1px solid #E3B873;
+              width: fit-content; }
+            .main__design-project__body__working--right--text--column--unselected {
+              font-family: 'Yeseva One';
+              font-style: normal;
+              font-weight: normal;
+              font-size: 15px;
+              line-height: 21px;
+              text-transform: uppercase;
+              color: #FFFFFF;
+              border-bottom: 1px solid #E3B873;
+              width: fit-content;
+              opacity: 0.3; }
+            .main__design-project__body__working--right--text--column--unselected-p {
+              margin-bottom: 60px;
+              font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+              font-size: 15px;
+              line-height: 18px;
+              color: #FFFFFF;
+              opacity: 0.3; }
+            .main__design-project__body__working--right--text--column--selected-p {
+              margin-bottom: 60px;
+              font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+              font-size: 15px;
+              line-height: 18px;
+              color: #FFFFFF; }
+        .main__design-project__body__working--right--figure {
+          width: 766px;
+          height: 378px; }
+
+@media screen and (max-width: 375px) {
+  .main__design-project {
+    margin-top: -150px;
+    width: 375px;
+    height: 2200px; }
+    .main__design-project__top-background {
+      display: none; }
+    .main__design-project__body {
+      margin-top: 150px;
+      width: 100%; }
+      .main__design-project__body__text {
+        width: 340px;
+        height: 76px;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 24px; }
+      .main__design-project__body__types {
+        width: 340px;
+        height: 1000px;
+        flex-wrap: wrap; }
+        .main__design-project__body__types--left {
+          width: 340px;
+          height: 420px;
+          align-items: flex-start; }
+          .main__design-project__body__types--left img {
+            width: 340px;
+            height: 420px; }
+        .main__design-project__body__types--center {
+          width: 392px;
+          height: 484px;
+          margin-top: 100px;
+          align-items: flex-start; }
+          .main__design-project__body__types--center img {
+            width: 340px;
+            height: 420px; }
+        .main__design-project__body__types--right {
+          width: 392px;
+          height: 550px;
+          margin-top: 105px;
+          align-items: flex-start; }
+          .main__design-project__body__types--right img {
+            width: 340px;
+            height: 420px; }
+        .main__design-project__body__types--list-left {
+          width: 270px; }
+          .main__design-project__body__types--list-left h3 {
+            font-size: 15px;
+            line-height: 21px; }
+          .main__design-project__body__types--list-left ul {
+            margin-top: 5px;
+            font-size: 13px;
+            line-height: 22px; }
+        .main__design-project__body__types--list-center {
+          width: 270px; }
+          .main__design-project__body__types--list-center h3 {
+            font-size: 15px;
+            line-height: 21px; }
+          .main__design-project__body__types--list-center ul {
+            margin-top: 5px;
+            font-size: 13px;
+            line-height: 22px; }
+        .main__design-project__body__types--list-right {
+          width: 270px; }
+          .main__design-project__body__types--list-right h3 {
+            font-size: 15px;
+            line-height: 21px; }
+          .main__design-project__body__types--list-right ul {
+            margin-top: 5px;
+            font-size: 13px;
+            line-height: 19px; }
+        .main__design-project__body__types--button {
+          width: 190px;
+          height: 40px;
+          top: 20px; }
+      .main__design-project__body__working {
+        display: none; } }
+
+.main__our-team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 900px; }
+  .main__our-team__top-background {
+    width: 100%;
+    height: 405px;
+    background-color: #131313; }
+  .main__our-team__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1063px;
+    height: 844px;
+    margin-top: -405px; }
+    .main__our-team__body__headline {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      width: 476px;
+      height: 148px; }
+      .main__our-team__body__headline h2 {
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+        text-transform: uppercase;
+        color: white; }
+      .main__our-team__body__headline p {
+        font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+        font-size: 17px;
+        line-height: 27px;
+        text-align: center;
+        color: #FFFFFF; }
+    .main__our-team__body__team {
+      display: flex;
+      justify-content: space-between;
+      width: 1063px;
+      height: 504px;
+      margin-top: 20px; }
+      .main__our-team__body__team--employee {
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        width: 327px;
+        height: 449px; }
+        .main__our-team__body__team--employee--icon {
+          z-index: 1; }
+        .main__our-team__body__team--employee--photo {
+          margin-left: 55px;
+          margin-top: -55px;
+          z-index: 0; }
+        .main__our-team__body__team--employee--info {
+          width: 233px;
+          height: 137px;
+          margin-top: -81px;
+          margin-left: 75px;
+          background-color: #FFFFFF;
+          z-index: 1; }
+          .main__our-team__body__team--employee--info h3 {
+            margin-top: 22px;
+            font-family: 'Yeseva One';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 25px;
+            text-align: center;
+            color: #181818; }
+          .main__our-team__body__team--employee--info h4 {
+            font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+            font-size: 18px;
+            line-height: 26px;
+            text-align: center;
+            color: #959595; }
+          .main__our-team__body__team--employee--info p {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 233px;
+            height: 44px;
+            margin-top: 24px;
+            background-color: #E3B873;
+            font-family: 'Yeseva One';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 20px;
+            text-transform: uppercase;
+            color: #FFFFFF; }
+    .main__our-team__body__employees-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 558px;
+      height: 154px; }
+      .main__our-team__body__employees-info div {
+        width: 55px;
+        height: 2px;
+        background-color: #E3B873; }
+      .main__our-team__body__employees-info p {
+        margin-top: 17px;
+        font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+        font-size: 16px;
+        line-height: 34px;
+        text-align: center;
+        color: #363636; }
+
+@media screen and (max-width: 375px) {
+  .main__our-team {
+    height: 1840px;
+    background-color: #131313; }
+    .main__our-team__top-background {
+      display: none; }
+    .main__our-team__body {
+      width: 100%;
+      margin-top: 0px; }
+      .main__our-team__body__headline {
+        width: 340px;
+        height: 133px; }
+        .main__our-team__body__headline p {
+          margin-top: 10px;
+          font-size: 15px;
+          line-height: 20px; }
+      .main__our-team__body__team {
+        margin-top: 0px;
+        width: 375px;
+        height: 2000px;
+        flex-wrap: wrap;
+        justify-content: flex-start; }
+        .main__our-team__body__team--employee {
+          margin-top: 30px;
+          width: 340px; }
+      .main__our-team__body__employees-info {
+        display: none; } }
+
+.main__our-clients {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 995px; }
+  .main__our-clients__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1236px;
+    height: 642px; }
+    .main__our-clients__body__headline {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 476px;
+      height: 146px; }
+      .main__our-clients__body__headline h2 {
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #181818;
+        margin-bottom: 13px; }
+      .main__our-clients__body__headline p {
+        font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        line-height: 27px;
+        text-align: center;
+        color: #363636;
+        margin-top: 24px; }
+    .main__our-clients__body__clients {
+      width: 1236px;
+      height: 455px;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 39px; }
+      .main__our-clients__body__clients--form {
+        width: 376px;
+        height: 428px; }
+        .main__our-clients__body__clients--form--photo {
+          display: flex;
+          align-items: center;
+          margin-left: 20px;
+          margin-top: 24px; }
+          .main__our-clients__body__clients--form--photo p {
+            margin-left: 23px;
+            font-family: 'Yeseva One';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 23px;
+            color: #181818; }
+        .main__our-clients__body__clients--form--review {
+          margin-left: 20px;
+          margin-top: 22px;
+          font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+          font-size: 15px;
+          line-height: 180%;
+          color: #959595; }
+        .main__our-clients__body__clients--form--info {
+          display: flex;
+          width: 294px;
+          height: 54px;
+          margin-top: 58px;
+          background-color: #E3B873; }
+          .main__our-clients__body__clients--form--info--square {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 130px;
+            border-right: 1px solid #FFFFFF; }
+            .main__our-clients__body__clients--form--info--square p {
+              margin-left: 10px;
+              font-family: 'Yeseva One';
+              font-style: normal;
+              font-weight: normal;
+              font-size: 17px;
+              line-height: 24px;
+              text-transform: uppercase;
+              color: #FFFFFF; }
+          .main__our-clients__body__clients--form--info--days {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 164px; }
+            .main__our-clients__body__clients--form--info--days p {
+              margin-left: 10px;
+              font-family: 'Yeseva One';
+              font-style: normal;
+              font-weight: normal;
+              font-size: 17px;
+              line-height: 24px;
+              text-transform: uppercase;
+              color: #FFFFFF; }
+
+@media screen and (max-width: 375px) {
+  .main__our-clients {
+    display: none; } }
+
+.main__questions-and-map {
+  width: 100%;
+  height: 958px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%); }
+  .main__questions-and-map__questions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 883px;
+    height: 444px;
+    margin-top: -222px;
+    background-color: #131313;
+    background-image: url(/img/questions-background.svg); }
+    .main__questions-and-map__questions--heading {
+      margin-top: 34px;
+      font-family: 'Yeseva One';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 28px;
+      text-transform: uppercase;
+      color: white; }
+    .main__questions-and-map__questions--name-phone {
+      display: flex;
+      justify-content: space-between;
+      width: 520px;
+      height: 50px;
+      margin-top: 45px; }
+      .main__questions-and-map__questions--name-phone--element {
+        width: 231px; }
+        .main__questions-and-map__questions--name-phone--element p {
+          font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+          font-size: 15px;
+          line-height: 20px;
+          color: rgba(255, 255, 255, 0.5); }
+        .main__questions-and-map__questions--name-phone--element--input {
+          width: 100%;
+          font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+          font-size: 18px;
+          line-height: 24px;
+          color: white;
+          background-color: #131313;
+          border: none;
+          border-bottom: 1px solid #363636; }
+    .main__questions-and-map__questions--question {
+      width: 520px;
+      margin-top: 48px; }
+      .main__questions-and-map__questions--question p {
+        font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+        font-size: 15px;
+        line-height: 20px;
+        color: rgba(255, 255, 255, 0.5); }
+      .main__questions-and-map__questions--question--input {
+        width: 100%;
+        font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+        font-size: 18px;
+        line-height: 24px;
+        color: white;
+        background-color: #131313;
+        border: none;
+        border-bottom: 1px solid #363636; }
+    .main__questions-and-map__questions--checkbox {
+      display: flex;
+      align-items: center;
+      width: 408px;
+      height: 18px;
+      margin-top: 46px; }
+      .main__questions-and-map__questions--checkbox input {
+        width: 18px;
+        height: 18px; }
+      .main__questions-and-map__questions--checkbox span {
+        font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+        font-size: 16px;
+        line-height: 22px;
+        color: #FFFFFF; }
+    .main__questions-and-map__questions--button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 213px;
+      height: 51px;
+      background: #E3B873;
+      border: none;
+      box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
+      font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+      font-size: 20px;
+      line-height: 26px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      text-decoration: none;
+      margin-top: 50px; }
+  .main__questions-and-map__info {
+    width: 589px;
+    height: 51px;
+    margin-top: 52px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E3B873; }
+    .main__questions-and-map__info a {
+      color: #E3B873;
+      text-decoration: none; }
+  .main__questions-and-map__social {
+    display: flex;
+    justify-content: space-between;
+    width: 71px;
+    height: 28px;
+    margin-top: 26px; }
+  .main__questions-and-map__map {
+    margin-top: 45px; }
+
+@media screen and (max-width: 375px) {
+  .main__questions-and-map {
+    width: 375px;
+    height: 675px;
+    background-color: #131313; }
+    .main__questions-and-map__questions {
+      width: 327px;
+      height: 472px;
+      background-image: none; }
+      .main__questions-and-map__questions--name-phone {
+        display: flex;
+        flex-wrap: wrap;
+        width: 327px;
+        height: 150px;
+        margin-top: 0px; }
+        .main__questions-and-map__questions--name-phone--element {
+          width: 100%;
+          margin-top: 40px; }
+      .main__questions-and-map__questions--question {
+        width: 100%;
+        margin-top: 48px; }
+      .main__questions-and-map__questions--checkbox {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 18px;
+        margin-top: 46px; }
+        .main__questions-and-map__questions--checkbox span {
+          font-size: 14px;
+          line-height: 20px; }
+      .main__questions-and-map__questions--button {
+        width: 340px;
+        height: 51px; }
+    .main__questions-and-map__map {
+      width: 340px;
+      height: 225px;
+      margin-top: -340px; }
+    .main__questions-and-map__info {
+      margin-top: 265px;
+      width: 100%;
+      font-size: 18px;
+      line-height: 25px; }
+    .main__questions-and-map__social {
+      margin-top: 50px; } }
+
+.footer {
+  display: flex;
+  width: 100%;
+  height: 83px;
+  background-color: #131313;
+  align-items: center; }
+  .footer__navigation {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 82px;
+    margin-right: 82px; }
+    .footer__navigation__heading {
+      font-family: Calibri, 'Trebuchet MS', sans-serif;
+      color: #E3B873;
+      font-weight: 600;
+      font-size: 18px; }
+    .footer__navigation__menu {
+      display: flex;
+      justify-content: space-between; }
+      .footer__navigation__menu--item {
+        color: white;
+        font-family: Calibri, 'Trebuchet MS', sans-serif;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-decoration: none; }
+        .footer__navigation__menu--item:hover {
+          color: #E3B873; }
+    .footer__navigation__phone {
+      display: flex;
+      align-items: center; }
+      .footer__navigation__phone--number {
+        color: #E3B873;
+        text-decoration: underline;
+        font-family: Calibri, 'Trebuchet MS', sans-serif; }
+      .footer__navigation__phone--button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 161px;
+        height: 37px;
+        background-color: #E3B873;
+        border-radius: 2px;
+        margin-left: 20px; }
+        .footer__navigation__phone--button--text {
+          color: white;
+          font-family: Calibri, 'Trebuchet MS', sans-serif;
+          text-decoration: none; }
+
+@media screen and (max-width: 375px) {
+  .footer {
+    display: none; } }
+
+@font-face {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Yeseva One Regular"), local("YesevaOne-Regular"), url(https://fonts.gstatic.com/s/yesevaone/v14/OpNJno4ck8vc-xYpwWWxli1VWw.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+html {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+body {
+  max-width: 1440px;
+  width: 100%; }
+
+@media screen and (max-width: 375px) {
+  html {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  body {
+    max-width: 375px;
+    width: 100%; } }
