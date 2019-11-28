@@ -32,27 +32,27 @@ body {
     border-radius: 5px;
     box-shadow: 0 0 20px rgba(199, 199, 199, 0.5);
 
-    &--photo {
+    &__photo {
         width: 186px;
         height: 192px;
         margin: auto 20px;
         border-radius: 3px;
     }
 
-    &--info_block {
+    &__info-block {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         margin-left: 20px;
 
-        &--name {
+        &__name {
             font-family: 'DM Sans', calibri, sans-serif;
             font-size: 52px;
             font-weight: 500;
             color: #555555;
         }
 
-        &--social {
+        &__social {
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -86,7 +86,7 @@ body {
     box-shadow: 0 0 20px rgba(199, 199, 199, 0.5);
     transition: all 200ms;
 
-    &--control {
+    &__control {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -99,7 +99,7 @@ body {
             color: #555555;
         }
     
-        &--spoiler {
+        &__spoiler {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -107,7 +107,7 @@ body {
             height: 50px;
             margin-right: 10px;
     
-            &__left {
+            &--left {
                 margin-left: 4px;
                 width: 20px;
                 height: 3px;
@@ -116,7 +116,7 @@ body {
                 transition: all 200ms;
             }
     
-            &__right {
+            &--right {
                 margin-left: -4px;
                 width: 20px;
                 height: 3px;
@@ -124,7 +124,7 @@ body {
                 transform: rotate(-210deg);
                 transition: all 200ms;
             }
-            &__left-close {
+            &--left-close {
                 margin-left: 4px;
                 width: 20px;
                 height: 3px;
@@ -133,7 +133,7 @@ body {
                 transition: all 200ms;
             }
     
-            &__right-close {
+            &--right-close {
                 margin-left: -4px;
                 width: 20px;
                 height: 3px;
@@ -154,7 +154,7 @@ body {
         margin-left: 60px;
         margin-top: 30px;
 
-        & h2 {
+        & ol {
             margin-top: 25px;
             font-family: 'DM Sans', calibri, sans-serif;
             font-size: 23px;
@@ -162,7 +162,7 @@ body {
             font-weight: 600;
         }
 
-        & p {
+        & li {
             margin-top: 5px;
             font-family: 'DM Sans', calibri, sans-serif;
             font-size: 20px;
@@ -180,7 +180,7 @@ body {
     border-radius: 3px;
     box-shadow: 0 0 20px rgba(199, 199, 199, 0.5);
 
-    &--heading {
+    &__heading {
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -191,8 +191,10 @@ body {
             font-size: 28px;
             color: #555555;
         }
-        & p {
+        & button {
             display: none;
+            border: none;
+            background-color: white;
             font-family: 'DM Sans', calibri, sans-serif;
             font-size: 15px;
             color: #555555;
@@ -203,7 +205,7 @@ body {
         }
     }
 
-    &--slider {
+    &__slider {
         position: relative;
         display: flex;
         justify-content: space-between;
@@ -211,16 +213,22 @@ body {
         height: auto;
         margin-top: 20px;
 
-        &--container {
+        &__container {
+            position: relative;
             display: flex;
             width: 100%;
             height: 100%;
+            overflow: hidden;
 
-            &--project {
+            &__project {
                 display: none;
+                flex-wrap: wrap;
+                left:0px;
                 opacity: 0;
                 overflow: hidden;
-                transition: all 200ms;
+                background-color: white;
+                z-index: 0;
+                transition: left 200ms;
 
                 &--info {
                     display: flex;
@@ -247,15 +255,11 @@ body {
                         font-size: 24px;
                         color: #555555;
                     }
-
-                    & h4 {
-                        display: none;
-                    }
                 }
             }
         }
 
-        &--nav {
+        &__nav {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -263,6 +267,7 @@ body {
             font-family: 'DM Sans', calibri, sans-serif;
             font-size: 40px;
             color: #555555;
+            user-select: none;
 
             &:hover {
                 cursor: pointer;
@@ -271,16 +276,23 @@ body {
             }
         }
     }
+
+    &__swiper {
+        display: none;
+    }
 }
 
 .active {
+    left: 0px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     width: 100%;
     opacity: 1;
     overflow: hidden;
-    transition: all 200ms;
+    background-color: white;
+    z-index: 100;
+    transition: left 200ms;
 
     & img {
         width: 100%;
@@ -302,27 +314,55 @@ body {
     }
 }
 
+@media screen and (min-width: 640px) {
+    .projects {
+        &--slider {
+            &--container {
+                &--project {
+                    &--info {
+                        display: flex;
+                    }
+                }
+            }
+        }
+    }
+}
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
     body {
         width: 100%;
     }
 
     .information {
         justify-content: center;
+
+        &--info_block {
+            &--name {
+                text-align: center;
+            }
+        }
     }
 
     .projects {
-        &--heading {
-            & p {
+        &__heading {
+            & button {
                 display: inline-block;
             }
         }
-        &--slider {
-            &--container {
-                &--project {
-                    &--info {
-                        display: block;
+        &__slider {
+            display: none;
+        }
+
+        &__swiper {
+            display: flex;
+            position: relative;
+            justify-content: center;
+
+            &__project {
+                display: none;
+
+                &__info {
+                    display: none;
                         position: absolute;
                         width: 65%;
                         min-width: 245px;
@@ -331,24 +371,31 @@ body {
                         opacity: 0.9;
                         top: 50%;
                         transform: translateY(-50%);
-                        border: 2px solid white;
+                        border: 2px solid #d2d2d2;
                         transition: all 200ms;
 
-                        & h3 {
-                            display: none;
-                        }
-
-                        & h4 {
-                            display: inline;
-                            font-family: 'DM Sans', calibri, sans-serif;
-                            font-size: 20px;
-                            color: #555555;
-                        }
+                
+                    & h2 {
+                        font-family: 'DM Sans', calibri, sans-serif;
+                        font-size: 24px;
+                        color: #555555;
+                    }
+                    
+                    & ul {
+                        padding: 10px 0px 0px 20px;
+                        margin-bottom: 10px;
+                        font-family: 'DM Sans', calibri, sans-serif;
+                        font-size: 20px;
+                        color: #555555;
+                    }
+                
+                    & h3 {
+                        padding-top: 10px;
+                        font-family: 'DM Sans', calibri, sans-serif;
+                        font-size: 24px;
+                        color: #555555;
                     }
                 }
-            }
-            &--nav {
-                display: none;
             }
         }
     }
@@ -357,5 +404,10 @@ body {
         & p {
             text-align: center;
         }
+    }
+
+    .mobile-active {
+        display: flex;
+        justify-content: center;
     }
 }
