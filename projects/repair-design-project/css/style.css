@@ -512,7 +512,7 @@
       width: 60%;
       height: 100%;
       margin-top: 31px;
-      background-image: url("/img/online-control-navigation-video.png"); }
+      background-image: url(../img/online-control-navigation-video.png); }
     .main__online-control__navigation__separator {
       width: 55px;
       height: 2px;
@@ -1166,7 +1166,7 @@
           align-items: center;
           width: 340px;
           height: 242px;
-          background-image: url(/img/mobile-fantasies-img.png);
+          background-image: url(../img/mobile-fantasies-img.png);
           z-index: 2; }
           .main__types-of-repair__styles__text--heading--mobile--next {
             width: 36px;
@@ -1814,7 +1814,7 @@
     height: 460px;
     margin-top: -222px;
     background-color: #131313;
-    background-image: url(/img/questions-background.svg); }
+    background-image: url(../img/questions-background.svg); }
     .main__questions-and-map__questions--heading {
       margin-top: 34px;
       font-family: 'Yeseva One', 'Times New Roman', serif;
