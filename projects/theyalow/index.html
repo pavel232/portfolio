@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="header.css">
     <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="stylesheet" type="text/css" href="footer.css">
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 </head>
 
@@ -38,10 +38,7 @@
         
         <div class="video-player">
             <a href="#"><img src="./assets/navigation-back.svg" alt="back"></a>
-            
-            <div class="video-player-bar">
-                <img class="video-nav" src="assets/video-nav.png" alt="">
-            </div>
+            <video class="video-player-bar" controls poster="./assets/video-prev.png"></video>
             <span class="video-description"><span>THE COOL<br></span>THE MINIMAL</span>
             <a href="#"><img src="./assets/navigation-forward.svg" alt="forward"></a>
         </div>
@@ -63,23 +60,24 @@
     </section>
 
     <section class="section-1">
-        <div class="section-1-box">
+        <div class="section-1__box">
             <h1>LOREM IPSUM DOLOR SIT AMET</h1>
-            <div class="section-1-layer">
-                <div class="section-1-layer-left">
+            <div class="section-1__layer">
+                <div class="section-1__layer__left">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmond tempor incididunt ut</p>
-                    <img src="./assets/section-1-video.png"/>
+                    <a href="#">+</a>
+                    <video class="section-1__layer__left--video" controls poster="./assets/section-1-video.png"></video>
                 </div>
-                <div class="section-1-layer-right">
+                <div class="section-1__layer__right">
                     <img src="./assets/twitter.svg"/>
                     <h1>22</h1>
-                    <span>+</span>
+                    <a href="#">+</a>
                 </div>
             </div>
-            <div class="section-1-date"><span>25</span><br/>April</div>
-            <div class="section-1-slider">
-                <div class="section-1-slider-invisible"></div>
-                <div class="section-1-slider-visible"></div>
+            <div class="section-1__date"><span>25</span><br/><p>April</p></div>
+            <div class="section-1__slider">
+                <div class="section-1__slider--invisible"></div>
+                <div class="section-1__slider--visible"></div>
             </div>
         </div>
     </section>

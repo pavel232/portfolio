@@ -6,7 +6,7 @@
     src: local('PT Sans'), local('PTSans-Regular'), url(https://fonts.gstatic.com/s/ptsans/v11/jizaRExUiTo99u79D0KExQ.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
   }
-  @font-face {
+@font-face {
     font-family: 'Segoe WP';
     font-style: normal;
     font-weight: normal;
@@ -43,7 +43,6 @@
     height: 327px;
     width: 549px;
     min-width: 549px;
-    background-image: url(./assets/video-prev.png);
 }
 .video-nav {
     margin-left: 20px;
@@ -96,12 +95,12 @@
     width: 100%;
     background-image: url(./assets/content-slider-back.svg);
 }
-.section-1-box {
+.section-1__box {
     height: 95%;
-    max-width: 1150px;
+    max-width: 1026px;
 }
-.section-1-box h1 {
-    margin-top: 35px;
+.section-1__box h1 {
+    margin-top: 15px;
     width: 918px;
     font-size: 37px;
     letter-spacing: 0px;
@@ -109,16 +108,14 @@
     font-family: "PT Sans";
     font-weight: 400;
 }
-.section-1-layer {
+.section-1__layer {
     display: flex;
-    margin-top: 30px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-top: 25px;
     height: 233px;
     width: 100%;
     
 }
-.section-1-layer-left {
+.section-1__layer__left {
     display: flex;
     flex: 1 0 50%;
     max-width: 65%;
@@ -126,20 +123,31 @@
     height: 100%;
     background-color: #ec9e03;
 }
-.section-1-layer-left img{
-    flex: 0 0
-}
-.section-1-layer-left p {
-    margin: 20px 20px;
-    font-size: 29px;
+.section-1__layer__left a {
+    height: 10px;
+    margin-top: 190px;
+    text-decoration: none;
+    font-size: 25px;
     letter-spacing: 0px;
     line-height: 38px;
     color: #ffffff;
     font-family: "Segoe WP";
     font-weight: 300;
+}
+.section-1__layer__left--video{
+    flex: 0 0
+}
+.section-1__layer__left p {
+    margin: 20px 20px;
+    font-size: 29px;
+    letter-spacing: 0px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "Segoe UI";
+    font-weight: 100;
     flex: 0 1 40%;
 }
-.section-1-layer-right {
+.section-1__layer__right {
     position: relative;
     display: flex;
     flex: 1 0 30%;
@@ -150,12 +158,12 @@
     background-color: #ec9e03;
     margin-left: 30px;
 }
-.section-1-layer-right img {
+.section-1__layer__right img {
     height: 70%;
 }
-.section-1-layer-right h1 {
+.section-1__layer__right h1 {
     position: absolute;
-    top: -25px;
+    top: -15px;
     right: 5px;  
     width: 30px;
     font-size: 25px;
@@ -166,42 +174,57 @@
     font-weight: 300; 
 }
 
-.section-1-layer-right span {
+.section-1__layer__right a {
     position: absolute;
+    text-decoration: none;
     bottom: 0;
-    right: 2px;  
+    right: 2px;
     width: 30px;
     font-size: 25px;
     letter-spacing: 0px;
     line-height: 38px;
     color: #ffffff;
     font-family: "Segoe WP";
-    font-weight: 300; 
+    font-weight: 300;
 }
 
-.section-1-box-2 {
+.section-1__box-2 {
     display: block;
 }
 
 .section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 499px;
-    padding: 0 5vw;
     background-image: url(./assets/section-2.png)
 }
 
-.section-1-date {
-    margin-left: 30px;
+.section-1__date {
     padding: 20px;
     max-width: 8vw;
     text-align: center;
-    background-color: yellow;
+    background-color: #ddb101;
 }
 
-.section-1-date span{
-    font-size: 50px;
+.section-1__date span{
+    font-size: 51px;
+    letter-spacing: 1px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "Segoe UI";
+    font-weight: bold;
 }
 
-.section-1-slider {
+.section-1__date p{
+    font-size: 21px;
+    letter-spacing: 0px;
+    line-height: 38px;
+    color: #b26529;
+    font-family: "Segoe UI";
+}
+
+.section-1__slider {
     margin-top: 25px;
     position: relative;
     height: 10px;
@@ -209,17 +232,17 @@
     justify-content: center;
 }
 
-.section-1-slider > * {
+.section-1__slider > * {
     border-radius: 10px;
     width: 100vw;
 }
 
-.section-1-slider-invisible {
+.section-1__slider--invisible {
     width: 85%;
     background-color: #f9e282;
 }
 
-.section-1-slider-visible {
+.section-1__slider--visible {
     position: absolute;
     width: 30%;
     height: 100%;
@@ -239,6 +262,7 @@
     }
 
 .bottom-content__options {
+    width: 1026px;
     margin-top: 50px;
     display: flex;
     justify-content: space-between;

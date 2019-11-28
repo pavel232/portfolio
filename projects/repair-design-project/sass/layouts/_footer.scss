@@ -2,69 +2,74 @@ $color-selected: #E3B873;
 
 .footer {
     display: flex;
-    width: 100%;
-    height: 83px;
-    background-color: #131313;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
-    
-    &__navigation {
+    min-height: 83px;
+    height: 100%;
+    background-color: #131313;
+    padding: 0px 82px 0px 82px;
+
+    &__heading {
+        font-family:  FuturaDemiC, Calibri, sans-serif;
+        color: $color-selected;
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    &__menu {
         display: flex;
-        flex-wrap: wrap;
-        width: 100%;
         justify-content: space-between;
-        align-items: center;
-        margin-left: 82px;
-        margin-right: 82px;
+        flex-wrap: wrap;
 
-        &__heading {
-            font-family:  Calibri, 'Trebuchet MS', sans-serif;
-            color: $color-selected;
-            font-weight: 600;
-            font-size: 18px;
-        }
-
-        &__menu {
-            display: flex;
-            justify-content: space-between;
-
-            &--item {
-                color: white;
-                font-family:  Calibri, 'Trebuchet MS', sans-serif;
-                padding-left: 10px;
-                padding-right: 10px;
-                text-decoration: none;
-            
-                &:hover{
-                    color: $color-selected;
-                }
+        &--item {
+            color: white;
+            font-family:  FuturaBookC, 'Century Gothic', sans-serif;
+            font-size: 14px;
+            line-height: 16px;
+            padding-left: 10px;
+            padding-right: 10px;
+            text-decoration: none;
+            transition: all 300ms;
+        
+            &:hover{
+                color: $color-selected;
+                transition: all 300ms;
             }
         }
+    }
 
-        &__phone {
+    &__phone {
+        display: flex;
+        align-items: center;
+
+        &--number {
+            color: $color-selected;
+            text-decoration: underline;
+            font-family:  FuturaDemiC, Calibri, sans-serif;
+        }
+
+        &--button {
             display: flex;
             align-items: center;
+            justify-content: center;
+            width: 161px;
+            height: 37px;
+            background-color: $color-selected;
+            border-radius: 2px;
+            margin-left: 20px;
+            border: none;
+            color: white;
+            font-family:  FuturaDemiC, Calibri, sans-serif;
+            text-decoration: none;
+            transition: all 300ms;
 
-            &--number {
-                color: $color-selected;
-                text-decoration: underline;
-                font-family:  Calibri, 'Trebuchet MS', sans-serif;
+            &:hover {
+                cursor: pointer;
             }
-
-            &--button {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                width: 161px;
-                height: 37px;
-                background-color: $color-selected;
-                border-radius: 2px;
-                margin-left: 20px;
-
-                &--text {
-                    color: white;
-                    font-family:  Calibri, 'Trebuchet MS', sans-serif;
-                    text-decoration: none;
-                }
+            &:active {
+                background-color: #b9975f;
+                transition: all 300ms;
             }
         }
     }

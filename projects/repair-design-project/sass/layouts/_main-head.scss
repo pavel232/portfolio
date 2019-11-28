@@ -13,13 +13,13 @@ $color-selected: #E3B873;
         &__instagram {
             display: flex;
             flex-direction: column;
-            width: 6vw;
+            width: 82px;
             background-color: #131313;
             align-items: center;
             justify-content: center;
             
             &--text {
-                font-family: Calibri, 'Trebuchet MS', sans-serif;
+                font-family: FuturaDemiC, Calibri, sans-serif;
                 font-weight: 600;
                 rotate: 90deg;
                 color: $color-selected;
@@ -40,7 +40,7 @@ $color-selected: #E3B873;
         &__background {
             display: flex;
             align-items: center;
-            width: 96vw;
+            width: 100%;
             background-image: url(../img/main-head-background.png);
             
             &__turnkey-repair {
@@ -51,7 +51,8 @@ $color-selected: #E3B873;
                 margin-left: 60px;
 
                 &--headline {
-                    font-family: 'Yeseva One';
+                    margin: 0;
+                    font-family: 'Yeseva One', 'Times New Roman', serif;
                     font-style: normal;
                     font-weight: normal;
                     font-size: 40px;
@@ -65,8 +66,9 @@ $color-selected: #E3B873;
                 }
 
                 &--text {
+                    max-width: 504px;
                     margin-top: 30px;
-                    font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+                    font-family: FuturaBookC, 'Century Gothic', sans-serif;
                     font-size: 22px;
                     line-height: 30px;
                     font-weight: 200;
@@ -76,29 +78,33 @@ $color-selected: #E3B873;
                 &--buttons {
                     display: flex;
                     justify-content: space-between;
-                    width: 434px;
+                    max-width: 434px;
                     height: 51px;
                     margin-top: 40px;
 
                     &--calculate {
+                        cursor: pointer;
                         display: flex;
                         align-items: center;
                         justify-content: center;
                         width: 207px;
                         height: 51px;
+                        margin-bottom: 20px;
                         border: 1px solid white;
                         box-sizing: border-box;
                         border-radius: 2px;
-                        cursor: pointer;
+                        user-select: none;
+                        transition: all 300ms;
 
                         &:hover {
                             background-color: $color-selected;
                             border: none;
+                            transition: all 300ms;
                         }
 
                         & a {
                             color: white;
-                            font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+                            font-family: FuturaBookC, 'Century Gothic', sans-serif;
                             font-size: 13px;
                             line-height: 15px;
                         }
@@ -115,6 +121,7 @@ $color-selected: #E3B873;
                     }
 
                     &--submit {
+                        cursor: pointer;
                         display: flex;
                         align-items: center;
                         justify-content: center;
@@ -123,16 +130,18 @@ $color-selected: #E3B873;
                         border: 1px solid white;
                         box-sizing: border-box;
                         border-radius: 2px;
-                        cursor: pointer;
+                        user-select: none;
+                        transition: all 300ms;
 
                         &:hover {
                             background-color: $color-selected;
                             border: none;
+                            transition: all 300ms;
                         }
 
                         & a {
                             color: white;
-                            font-family: 'Century Gothic', 'Trebuchet MS', sans-serif;
+                            font-family: FuturaBookC, 'Century Gothic', sans-serif;
                             font-size: 13px;
                             line-height: 15px;
                         }
@@ -168,6 +177,45 @@ $color-selected: #E3B873;
             color: white;
             text-decoration: none;
             padding-right: 12px;
+            transition: all 300ms;
+
+            &:hover {
+                color: $color-selected;
+                transition: all 300ms;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .main__head {
+        &__main-block {
+            &__instagram {
+                display: none;
+            }
+
+            &__background {
+                &__turnkey-repair {
+                    width: 100%;
+
+                    &--headline {
+                        width: 100%;
+                    }
+
+                    &--text {
+                        margin-top: 10px;
+                    }
+
+                    &--buttons {
+                        flex-wrap: wrap;
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+
+        &__scroll-down {
+            opacity: 0;
         }
     }
 }
@@ -182,39 +230,37 @@ $color-selected: #E3B873;
             }
 
             &__background {
-                width: 375px;
                 height: 476px;
                 align-items: flex-start;
 
                 &__turnkey-repair {
-                    width: 375px;
                     margin-top: 85px;
                     margin-left: 18px;
                     margin-right: 18px;
 
                     &--headline {
-                        width: 339px;
-                        height: 60px;
+                        max-height: 124px;
+                        margin: 0;
                         line-height: 31px;
                         font-size: 23px;
                     }
 
                     &--text {
-                        width: 339px;
-                        height: 94px;
-                        margin-top: 16px;
+                        max-height: 96px;
+                        margin: 16px 0px 0px 0px;
                         font-size: 15px;
                         line-height: 24px;
                     }
 
                     &--buttons {
                         flex-direction: column;
-                        width: 339px;
+                        flex-wrap: nowrap;
                         height: 128px;
                         margin-top: 32px;
 
                         &--calculate {
                             width: 100%;
+                            margin-bottom: 0px;
                         }
 
                         &--submit {
@@ -228,25 +274,6 @@ $color-selected: #E3B873;
 
         &__scroll-down {
             display: none;
-        }
-    }
-}
-@media screen and (max-width: 1024px) {
-    .main__head {
-        &__main-block {
-            &__background {
-                &__turnkey-repair {
-                    width: 100%;
-
-                    &--headline {
-                        width: 100%;
-                    }
-
-                    &--buttons {
-                        flex-wrap: wrap;
-                    }
-                }
-            }
         }
     }
 }

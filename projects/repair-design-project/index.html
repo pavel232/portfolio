@@ -11,22 +11,18 @@
 <body class="body">
 
   <nav class="header">
-    <div class="header__navigation">
-      <h1 class="header__navigation__heading">IC "REPAIR DESIGN PROJECT"</h1>
-      <div class="header__navigation__menu">
-        <a class="header__navigation__menu--item" href="#">HOME</a>
-        <a class="header__navigation__menu--item" href="#">PROJECTS</a>
-        <a class="header__navigation__menu--item" href="#">MEASUREMENT</a>
-        <a class="header__navigation__menu--item" href="#">TEAM</a>
-        <a class="header__navigation__menu--item" href="#">REVIEWS</a>
-        <a class="header__navigation__menu--item" href="#">CONTACTS</a>
-      </div>
-      <div class="header__navigation__phone">
-          <a class="header__navigation__phone--number" href="tel:+79287683239">+7 (928) 768-32-39</a>
-          <div class="header__navigation__phone--button">
-            <a class="header__navigation__phone--button--text" href="#">REQUEST A CALL</a>
-          </div>
-      </div>
+    <h1 class="header__heading">IC "REPAIR DESIGN PROJECT"</h1>
+    <div class="header__menu">
+      <a class="header__menu--item" href="#">HOME</a>
+      <a class="header__menu--item" href="#">PROJECTS</a>
+      <a class="header__menu--item" href="#">MEASUREMENT</a>
+      <a class="header__menu--item" href="#">TEAM</a>
+      <a class="header__menu--item" href="#">REVIEWS</a>
+      <a class="header__menu--item" href="#">CONTACTS</a>
+    </div>
+    <div class="header__phone">
+        <a class="header__phone--number" href="tel:+79287683239">+7 (928) 768-32-39</a>
+        <button class="header__phone--button">REQUEST A CALL</button>
     </div>
   </nav>
 
@@ -40,7 +36,7 @@
         <div class="main__head__main-block__background__turnkey-repair">
           <p class="main__head__main-block__background__turnkey-repair--headline">Turnkey Repair in the<br> 
               city of <span>Rostov-on-Don</span></p>
-          <p class="main__head__main-block__background__turnkey-repair--text">Get ready-made turnkey repairs on time with work time saving up to 45 days and 20% from cost of materials due to the organization of work</p>
+          <p class="main__head__main-block__background__turnkey-repair--text">Get ready-made turnkey repairs on time<br> with work time saving up to 45 days and 20% from<br> cost of materials due to the organization of work</p>
           <div class="main__head__main-block__background__turnkey-repair--buttons">
             <div class="main__head__main-block__background__turnkey-repair--buttons--calculate">
               <a href="#">CALCULATE THE COST</a>
@@ -120,9 +116,9 @@
           <iframe class="main__online-control__navigation__video" src="https://www.youtube.com/embed/jz2zhmMDaJg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <div class="main__online-control__navigation__separator"></div>
         <p class="main__online-control__navigation__text">
-          At each facility, a camera is installed that broadcasts the progress of work on the clock. At any time, you can go to our website and monitor the progress of work in your apartment. You can watch the live broadcast from one of our facilities! Leave a request below and you will receive a link to the broadcast.
+          At each facility, a camera is installed that broadcasts the progress of work on the clock. At any time, you can go to our website and monitor the progress of work in your apartment. You can watch the live broadcast from one of our facilities!<br> Leave a request below and you will receive a link to the broadcast.
         </p>
-        <form class="main__online-control__navigation__submit">
+        <form class="main__online-control__navigation__submit" action="submission.html" method="POST">
           <div class="main__online-control__navigation__submit--bar">
             <div class="main__online-control__navigation__submit--bar--name">
               <p>Name</p>
@@ -134,8 +130,9 @@
             </div>
             <input class="main__online-control__navigation__submit--bar--button" type="submit" value="submit">
           </div>
-          <label class="main__online-control__navigation__submit--checkbox">
+          <label class="main__online-control__navigation__submit--checkbox container container">
             <input type="checkbox" required>
+            <span class="checkmark"></span>
             <span>I agree to the processing of personal data</span>
           </label>
         </form>
@@ -158,9 +155,7 @@
               <li>• Replacing sockets and switches</li>
               <li>• Replacing doors</li>
             </ul>
-            <div class="main__types-of-repair__repair-types--list--button">
-              <a href="">From 900 RUB / m2</a>
-            </div>
+            <div class="main__types-of-repair__repair-types--list--button">From 900 RUB / m2</div>
           </div>
         </div>
         <div class="main__types-of-repair__repair-types--center">
@@ -176,9 +171,7 @@
                 <li>• Replacing sockets and switches</li>
                 <li>• Replacing doors</li>
               </ul>
-              <div class="main__types-of-repair__repair-types--list--button">
-                <a href="">From 1800 RUB / m2</a>
-              </div>
+              <div class="main__types-of-repair__repair-types--list--button">From 1800 RUB / m2</div>
             </div>
         </div>
         <div class="main__types-of-repair__repair-types--right">
@@ -194,37 +187,35 @@
               <li>• Replacing sockets and switches</li>
               <li>• Replacing doors</li>
             </ul>
-            <div class="main__types-of-repair__repair-types--list--button">
-              <a href="">From 4000 RUB / m2</a>
-            </div>
+            <div class="main__types-of-repair__repair-types--list--button">From 4000 RUB / m2</div>
           </div>
         </div>
       </div>
       <div class="main__types-of-repair__request">
         <div class="main__types-of-repair__request__image">
           <div class="main__types-of-repair__request__image--border">
-          <div class="main__types-of-repair__request__image--info">
-            <div class="main__types-of-repair__request__image--info--01">
-              <div><p>01</p></div>
-              <p class="main__types-of-repair__request__image--info--text">Our specialist will arrive for measurements per day contact, or appoint a date convenient for you</p>
-            </div>
-            <div class="main__types-of-repair__request__image--info--02">
-              <div><p>02</p></div>
-              <p class="main__types-of-repair__request__image--info--text">Free metering</p>
-            </div>
-            <div class="main__types-of-repair__request__image--info--03">
-              <div><p>03</p></div>
-              <p class="main__types-of-repair__request__image--info--text">Free consultation</p>
-            </div>
-            <div class="main__types-of-repair__request__image--info--04">
-              <div><p>04</p></div>
-              <p class="main__types-of-repair__request__image--info--text">Get a cost estimate and<br>the timing of your future repairs</p>
+            <div class="main__types-of-repair__request__image--info">
+              <div class="main__types-of-repair__request__image--info--01">
+                <div><p>01</p></div>
+                <p class="main__types-of-repair__request__image--info--text">Our specialist will arrive for measurements per day contact, or appoint a date convenient for you</p>
+              </div>
+              <div class="main__types-of-repair__request__image--info--02">
+                <div><p>02</p></div>
+                <p class="main__types-of-repair__request__image--info--text">Free metering</p>
+              </div>
+              <div class="main__types-of-repair__request__image--info--03">
+                <div><p>03</p></div>
+                <p class="main__types-of-repair__request__image--info--text">Free consultation</p>
+              </div>
+              <div class="main__types-of-repair__request__image--info--04">
+                <div><p>04</p></div>
+                <p class="main__types-of-repair__request__image--info--text">Get a cost estimate and<br>the timing of your future repairs</p>
+              </div>
             </div>
           </div>
         </div>
-        </div>
         <div class="main__types-of-repair__request__form">
-          <form class="main__types-of-repair__request__form--submit">
+          <form class="main__types-of-repair__request__form--submit" action="submission.html" method="POST">
             <h3>Leave a request for free departure of the measurer</h3>
             <div class="main__types-of-repair__request__form--submit--element">
                 <p>Name</p>
@@ -238,8 +229,9 @@
                   <p>Email</p>
                   <input class="main__types-of-repair__request__form--submit--input" type="email" name="email" id="email" required placeholder="Your email">
                 </div>
-              <label class="main__types-of-repair__request__form--submit--checkbox">
+              <label class="main__types-of-repair__request__form--submit--checkbox container">
                 <input type="checkbox" required>
+                <span class="checkmark"></span>
                 <span>I agree to the processing of personal data</span>
               </label>
               <input class="main__types-of-repair__request__form--submit--button" type="submit" value="submit">
@@ -287,7 +279,7 @@
         <div class="main__design-project__body__headline">
           <img src="./img/design-project.svg">
         </div>
-        <p class="main__design-project__body__text">Design project not only helps to make the repair of your apartment more modern,<br>but also significantly reduces the cost of materials and reduces the time of repair work.</p>
+        <p class="main__design-project__body__text">Design project not only helps to make the repair of your apartment more modern, but also significantly reduces the cost of materials and reduces the time of repair work.</p>
         <div class="main__design-project__body__types">
           <div class="main__design-project__body__types--left">
               <img src="img/repair-types-1.png" alt="">
@@ -347,50 +339,50 @@
             </div>
         </div>
         <div class="main__design-project__body__working">
-          <div class="main__design-project__body__working--left">
-            <p class="main__design-project__body__working--left--hwaw">how we are working</p>
-            <div class="main__design-project__body__working--left--heading">
+          <div class="main__design-project__body__working__left">
+            <p class="main__design-project__body__working__left--hwaw">how we are working</p>
+            <div class="main__design-project__body__working__left--heading">
               <h3>6 steps to<br>the goal</h3>
               <div></div>
             </div>
-            <div class="main__design-project__body__working--left--1-6">
+            <div class="main__design-project__body__working__left--1-6">
               <h3>1/6</h3>
               <h2>Departure for measurements premises</h2>
               <p>After your call, we go to you to consult and measure the premises of your apartment. During our meeting, you can ask absolutely any number of questions. An appraiser-appraiser leaves to measure the room.<br><br>He will advise you on the issues of repair technology, apartment design, terms of repair of the apartment as a whole and its individual stages.</p>
             </div>
-            <div class="main__design-project__body__working--left--nav">
-              <img class="main__design-project__body__working--left--nav--prev" src="img/nav-prev.svg" alt="previous">
-              <div class="main__design-project__body__working--left--nav--dot--active"></div>
-              <div class="main__design-project__body__working--left--nav--dot"></div>
-              <div class="main__design-project__body__working--left--nav--dot"></div>
-              <div class="main__design-project__body__working--left--nav--dot"></div>
-              <div class="main__design-project__body__working--left--nav--dot"></div>
-              <div class="main__design-project__body__working--left--nav--dot"></div>
-              <img class="main__design-project__body__working--left--nav--next" src="img/nav-next.svg" alt="next">
+            <div class="main__design-project__body__working__left--nav">
+              <img class="main__design-project__body__working__left--nav--prev" src="img/nav-prev.svg" alt="previous">
+              <div class="main__design-project__body__working__left--nav--dot--active"></div>
+              <div class="main__design-project__body__working__left--nav--dot"></div>
+              <div class="main__design-project__body__working__left--nav--dot"></div>
+              <div class="main__design-project__body__working__left--nav--dot"></div>
+              <div class="main__design-project__body__working__left--nav--dot"></div>
+              <div class="main__design-project__body__working__left--nav--dot"></div>
+              <img class="main__design-project__body__working__left--nav--next" src="img/nav-next.svg" alt="next">
             </div>
           </div>
-          <div class="main__design-project__body__working--right">
-            <div class="main__design-project__body__working--right--text">
-              <div class="main__design-project__body__working--right--text--column">
-                <h2 class="main__design-project__body__working--right--text--column--selected">01</h2>
-                <p class="main__design-project__body__working--right--text--column--selected-p">Departure to room measurements</p>
-                <h2 class="main__design-project__body__working--right--text--column--unselected">04</h2>
-                <p class="main__design-project__body__working--right--text--column--unselected-p">Purchasing Supplies</p>
+          <div class="main__design-project__body__working__right">
+            <div class="main__design-project__body__working__right--text">
+              <div class="main__design-project__body__working__right--text--column">
+                <h2 class="main__design-project__body__working__right--text--column--selected">01</h2>
+                <p class="main__design-project__body__working__right--text--column--selected-p">Departure to<br> room measurements</p>
+                <h2 class="main__design-project__body__working__right--text--column--unselected">04</h2>
+                <p class="main__design-project__body__working__right--text--column--unselected-p">Purchasing Supplies</p>
               </div>
-              <div class="main__design-project__body__working--right--text--column">
-                <h2 class="main__design-project__body__working--right--text--column--unselected">02</h2>
-                <p class="main__design-project__body__working--right--text--column--unselected-p">Compilation estimates</p>
-                <h2 class="main__design-project__body__working--right--text--column--unselected">05</h2>
-                <p class="main__design-project__body__working--right--text--column--unselected-p">Repair finishing work</p>
+              <div class="main__design-project__body__working__right--text--column">
+                <h2 class="main__design-project__body__working__right--text--column--unselected">02</h2>
+                <p class="main__design-project__body__working__right--text--column--unselected-p">Compilation<br> estimates</p>
+                <h2 class="main__design-project__body__working__right--text--column--unselected">05</h2>
+                <p class="main__design-project__body__working__right--text--column--unselected-p">Repair finishing work</p>
               </div>
-              <div class="main__design-project__body__working--right--text--column">
-                <h2 class="main__design-project__body__working--right--text--column--unselected">03</h2>
-                <p class="main__design-project__body__working--right--text--column--unselected-p">Development project design</p>
-                <h2 class="main__design-project__body__working--right--text--column--unselected">06</h2>
-                <p class="main__design-project__body__working--right--text--column--unselected-p">Приемка-сдача работ</p>
+              <div class="main__design-project__body__working__right--text--column">
+                <h2 class="main__design-project__body__working__right--text--column--unselected">03</h2>
+                <p class="main__design-project__body__working__right--text--column--unselected-p">Development<br> project design</p>
+                <h2 class="main__design-project__body__working__right--text--column--unselected">06</h2>
+                <p class="main__design-project__body__working__right--text--column--unselected-p">Приемка-сдача<br> работ</p>
               </div>
             </div>
-            <img class="main__design-project__body__working--right--figure" src="./img/design-project-figure.png">
+            <img class="main__design-project__body__working__right--figure" src="./img/design-project-figure.png">
           </div>
         </div>
       </div>
@@ -424,7 +416,8 @@
             </div>
           </div>
           <div class="main__our-team__body__team--employee">
-            <img class="main__our-team__body__team--employee--icon" src="./img/team-alexey-ico.svg" alt="">              <img class="main__our-team__body__team--employee--photo" src="./img/team-alexey.png" alt="Alexey">
+            <img class="main__our-team__body__team--employee--icon" src="./img/team-alexey-ico.svg" alt="">
+            <img class="main__our-team__body__team--employee--photo" src="./img/team-alexey.png" alt="Alexey">
             <div class="main__our-team__body__team--employee--info">
               <h3>Alexey Efimov</h3>
               <h4>Foreman</h4>
@@ -434,74 +427,72 @@
         </div>
         <div class="main__our-team__body__employees-info">
           <div></div>
-          <p>Each employee of our company is a qualified full-time specialist with work experience of 6 years.<br>We do not have laborers and guest workers, each employee carries out work corresponding to his specialty.</p>
+          <p>Each employee of our company is a qualified full-time specialist<br> with work experience of 6 years.<br>We do not have laborers and guest workers, each employee carries out work corresponding to his specialty.</p>
         </div>
       </div>
     </div>
 
     <div class="main__our-clients">
-      <div class="main__our-clients__body">
-        <div class="main__our-clients__body__headline">
-          <h2>our clients</h2>
-          <img src="./img/our-clients.svg">
-          <p>80% of our customers recommend us to their<br>friends and family.</p>
+      <div class="main__our-clients__headline">
+        <h2>our clients</h2>
+        <img src="./img/our-clients.svg">
+        <p>80% of our customers recommend us to their<br>friends and family.</p>
+      </div>
+      <div class="main__our-clients__clients">
+        <div class="main__our-clients__clients--form">
+          <div class="main__our-clients__clients--form--photo">
+            <img src="./img/client-1.png" alt="">
+            <p>Fedosova Maria<br>Konstantinovna</p>
+          </div>
+          <div class="main__our-clients__clients--form--review">
+              I want to thank the guys for their work. We put your shower part in repair. I am very grateful that i referred to the repair as to my own. Great thanks i express the project to georgia for its professionalism and approach. The repair process was turned out in terms, faster than anticipated. Team mobile and professional. Works performed qualitatively without comments. Quality satisfied. Prices democratic. I recommend these masters.
+          </div>
+          <div class="main__our-clients__clients--form--info">
+            <div class="main__our-clients__clients--form--info--square">
+              <img src="./img/our-clients-square.svg" alt="">
+              <p>40 M2</p>
+            </div>
+            <div class="main__our-clients__clients--form--info--days">
+              <img src="./img/our-clients-days.svg" alt="">
+              <p>48 days</p>
+            </div>
+          </div>
         </div>
-        <div class="main__our-clients__body__clients">
-          <div class="main__our-clients__body__clients--form">
-            <div class="main__our-clients__body__clients--form--photo">
-              <img src="./img/client-1.png" alt="">
-              <p>Fedosova Maria<br>Konstantinovna</p>
+        <div class="main__our-clients__clients--form">
+          <div class="main__our-clients__clients--form--photo">
+            <img src="./img/client-2.png" alt="">
+            <p>Afanasyev Sergey<br>Alexandrovich</p>
+          </div>
+          <div class="main__our-clients__clients--form--review">
+              I want to thank the guys for their work. We put your shower part in repair. I am very grateful that i referred to the repair as to my own. Great thanks i express the project to georgia for its professionalism and approach. The repair process was turned out in terms, faster than anticipated. Team mobile and professional. Works performed qualitatively without comments. Quality satisfied. Prices democratic. I recommend these masters.
+          </div>
+          <div class="main__our-clients__clients--form--info">
+            <div class="main__our-clients__clients--form--info--square">
+              <img src="./img/our-clients-square.svg" alt="">
+              <p>90 M2</p>
             </div>
-            <div class="main__our-clients__body__clients--form--review">
-                I want to thank the guys for their work. We put your shower part in repair. I am very grateful that i referred to the repair as to my own. Great thanks i express the project to georgia for its professionalism and approach. The repair process was turned out in terms, faster than anticipated. Team mobile and professional. Works performed qualitatively without comments. Quality satisfied. Prices democratic. I recommend these masters.
-            </div>
-            <div class="main__our-clients__body__clients--form--info">
-              <div class="main__our-clients__body__clients--form--info--square">
-                <img src="./img/our-clients-square.svg" alt="">
-                <p>40 M2</p>
-              </div>
-              <div class="main__our-clients__body__clients--form--info--days">
-                <img src="./img/our-clients-days.svg" alt="">
-                <p>48 days</p>
-              </div>
+            <div class="main__our-clients__clients--form--info--days">
+              <img src="./img/our-clients-days.svg" alt="">
+              <p>128 days</p>
             </div>
           </div>
-          <div class="main__our-clients__body__clients--form">
-            <div class="main__our-clients__body__clients--form--photo">
-              <img src="./img/client-2.png" alt="">
-              <p>Afanasyev Sergey<br>Alexandrovich</p>
-            </div>
-            <div class="main__our-clients__body__clients--form--review">
-                I want to thank the guys for their work. We put your shower part in repair. I am very grateful that i referred to the repair as to my own. Great thanks i express the project to georgia for its professionalism and approach. The repair process was turned out in terms, faster than anticipated. Team mobile and professional. Works performed qualitatively without comments. Quality satisfied. Prices democratic. I recommend these masters.
-            </div>
-            <div class="main__our-clients__body__clients--form--info">
-              <div class="main__our-clients__body__clients--form--info--square">
-                <img src="./img/our-clients-square.svg" alt="">
-                <p>90 M2</p>
-              </div>
-              <div class="main__our-clients__body__clients--form--info--days">
-                <img src="./img/our-clients-days.svg" alt="">
-                <p>128 days</p>
-              </div>
-            </div>
+        </div>
+        <div class="main__our-clients__clients--form">
+          <div class="main__our-clients__clients--form--photo">
+            <img src="./img/client-3.png" alt="">
+            <p>Kiriev Egor<br>Leonidovich</p>
           </div>
-          <div class="main__our-clients__body__clients--form">
-            <div class="main__our-clients__body__clients--form--photo">
-              <img src="./img/client-3.png" alt="">
-              <p>Kiriev Egor<br>Leonidovich</p>
+          <div class="main__our-clients__clients--form--review">
+              I want to thank the guys for their work. We put your shower part in repair. I am very grateful that i referred to the repair as to my own. Great thanks i express the project to georgia for its professionalism and approach. The repair process was turned out in terms, faster than anticipated. Team mobile and professional. Works performed qualitatively without comments. Quality satisfied. Prices democratic. I recommend these masters.
+          </div>
+          <div class="main__our-clients__clients--form--info">
+            <div class="main__our-clients__clients--form--info--square">
+              <img src="./img/our-clients-square.svg" alt="">
+              <p>56 M2</p>
             </div>
-            <div class="main__our-clients__body__clients--form--review">
-                I want to thank the guys for their work. We put your shower part in repair. I am very grateful that i referred to the repair as to my own. Great thanks i express the project to georgia for its professionalism and approach. The repair process was turned out in terms, faster than anticipated. Team mobile and professional. Works performed qualitatively without comments. Quality satisfied. Prices democratic. I recommend these masters.
-            </div>
-            <div class="main__our-clients__body__clients--form--info">
-              <div class="main__our-clients__body__clients--form--info--square">
-                <img src="./img/our-clients-square.svg" alt="">
-                <p>56 M2</p>
-              </div>
-              <div class="main__our-clients__body__clients--form--info--days">
-                <img src="./img/our-clients-days.svg" alt="">
-                <p>86 days</p>
-              </div>
+            <div class="main__our-clients__clients--form--info--days">
+              <img src="./img/our-clients-days.svg" alt="">
+              <p>86 days</p>
             </div>
           </div>
         </div>
@@ -509,7 +500,7 @@
     </div>
 
     <div class="main__questions-and-map">
-      <form class="main__questions-and-map__questions">
+      <form class="main__questions-and-map__questions" action="submission.html" method="POST">
         <p class="main__questions-and-map__questions--heading">have any questions?</p>
         <div class="main__questions-and-map__questions--name-phone">
          <div class="main__questions-and-map__questions--name-phone--element">
@@ -525,8 +516,9 @@
           <p>Question</p>
           <input class="main__questions-and-map__questions--question--input" type="text" name="question" id="question" required placeholder="I want to know:">
         </div>
-        <label class="main__questions-and-map__questions--checkbox">
+        <label class="main__questions-and-map__questions--checkbox container">
           <input type="checkbox" required>
+          <span class="checkmark"></span>
           <span>I agree to the processing of personal data</span>
         </label>
         <input class="main__questions-and-map__questions--button" type="submit" value="submit">
@@ -541,22 +533,18 @@
   </main>
 
   <footer class="footer">
-    <div class="footer__navigation">
-      <h1 class="footer__navigation__heading">IC "REPAIR DESIGN PROJECT"</h1>
-      <div class="footer__navigation__menu">
-        <a class="footer__navigation__menu--item" href="#">HOME</a>
-        <a class="footer__navigation__menu--item" href="#">PROJECTS</a>
-        <a class="footer__navigation__menu--item" href="#">MEASUREMENT</a>
-        <a class="footer__navigation__menu--item" href="#">TEAM</a>
-        <a class="footer__navigation__menu--item" href="#">REVIEWS</a>
-        <a class="footer__navigation__menu--item" href="#">CONTACTS</a>
-      </div>
-      <div class="footer__navigation__phone">
-          <a class="footer__navigation__phone--number" href="tel:+79287683239">+7 (928) 768-32-39</a>
-        <div class="footer__navigation__phone--button">
-          <a class="footer__navigation__phone--button--text" href="#">REQUEST A CALL</a>
-        </div>
-      </div>
+    <h1 class="footer__heading">IC "REPAIR DESIGN PROJECT"</h1>
+    <div class="footer__menu">
+      <a class="footer__menu--item" href="#">HOME</a>
+      <a class="footer__menu--item" href="#">PROJECTS</a>
+      <a class="footer__menu--item" href="#">MEASUREMENT</a>
+      <a class="footer__menu--item" href="#">TEAM</a>
+      <a class="footer__menu--item" href="#">REVIEWS</a>
+      <a class="footer__menu--item" href="#">CONTACTS</a>
+    </div>
+    <div class="footer__phone">
+        <a class="footer__phone--number" href="tel:+79287683239">+7 (928) 768-32-39</a>
+        <button class="footer__phone--button">REQUEST A CALL</button>
     </div>
   </footer>
 
