@@ -211,8 +211,7 @@ $color-selected: #E3B873;
         flex-direction: column;
 
         &__text {
-            width: 375px;
-            min-width: 375px;
+            width: 100%;
             margin-left: 0px;
             margin-top: -190px;
             z-index: 0;

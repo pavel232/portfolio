@@ -401,7 +401,7 @@
 @media screen and (max-width: 375px) {
     .main__design-project {
         margin-top: -115px;
-        width: 375px;
+        //width: 375px;
         height: 2180px;
 
         &__top-background {
@@ -430,6 +430,7 @@
                     width: 340px;
                     height: 420px;
                     align-items: flex-start;
+                    margin: 39px 0px 0px 0px;
 
                     & img {
                         width: 340px;
@@ -440,7 +441,7 @@
                 &--center {
                     width: 392px;
                     height: 484px;
-                    margin-top: 100px;
+                    margin: 100px 0px 0px 0px;
                     align-items: flex-start;
 
                     & img {
@@ -452,7 +453,7 @@
                 &--right {
                     width: 392px;
                     height: 550px;
-                    margin-top: 105px;
+                    margin: 105px 0px 0px 0px;
                     align-items: flex-start;
 
                     & img {

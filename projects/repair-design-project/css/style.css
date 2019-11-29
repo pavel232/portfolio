@@ -420,8 +420,7 @@
     margin-top: 0px;
     flex-direction: column; }
     .main__completed-projects__text {
-      width: 375px;
-      min-width: 375px;
+      width: 100%;
       margin-left: 0px;
       margin-top: -190px;
       z-index: 0; }
@@ -1120,7 +1119,8 @@
       .main__types-of-repair__repair-types--left {
         align-items: flex-start;
         width: 340px;
-        height: 484px; }
+        height: 484px;
+        margin: 60px 0px 0px 0px; }
         .main__types-of-repair__repair-types--left img {
           width: 340px;
           height: 365px; }
@@ -1128,7 +1128,8 @@
         align-items: flex-start;
         width: 340px;
         height: 484px;
-        margin-top: 60px; }
+        margin-top: 60px;
+        margin: 60px 0px 0px 0px; }
         .main__types-of-repair__repair-types--center img {
           width: 340px;
           height: 365px; }
@@ -1136,7 +1137,7 @@
         align-items: flex-start;
         width: 340px;
         height: 484px;
-        margin-top: 60px; }
+        margin: 60px 0px 0px 0px; }
         .main__types-of-repair__repair-types--right img {
           width: 340px;
           height: 365px; }
@@ -1483,7 +1484,6 @@
 @media screen and (max-width: 375px) {
   .main__design-project {
     margin-top: -115px;
-    width: 375px;
     height: 2180px; }
     .main__design-project__top-background {
       display: none; }
@@ -1505,14 +1505,15 @@
         .main__design-project__body__types--left {
           width: 340px;
           height: 420px;
-          align-items: flex-start; }
+          align-items: flex-start;
+          margin: 39px 0px 0px 0px; }
           .main__design-project__body__types--left img {
             width: 340px;
             height: 420px; }
         .main__design-project__body__types--center {
           width: 392px;
           height: 484px;
-          margin-top: 100px;
+          margin: 100px 0px 0px 0px;
           align-items: flex-start; }
           .main__design-project__body__types--center img {
             width: 340px;
@@ -1520,7 +1521,7 @@
         .main__design-project__body__types--right {
           width: 392px;
           height: 550px;
-          margin-top: 105px;
+          margin: 105px 0px 0px 0px;
           align-items: flex-start; }
           .main__design-project__body__types--right img {
             width: 340px;
@@ -1690,7 +1691,6 @@
           line-height: 20px; }
       .main__our-team__body__team {
         margin-top: 0px;
-        width: 375px;
         flex-wrap: wrap;
         justify-content: flex-start; }
         .main__our-team__body__team--employee {
@@ -1953,7 +1953,6 @@
 
 @media screen and (max-width: 375px) {
   .main__questions-and-map {
-    width: 375px;
     height: 710px;
     background-color: #131313; }
     .main__questions-and-map__questions {
