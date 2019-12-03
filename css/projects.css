@@ -7,11 +7,9 @@ body {
 .buttons-block {
     position: absolute;
     right: 40px;
-    bottom: 40px;
-    height: 90px;
+    bottom: 30px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .button {
@@ -20,6 +18,7 @@ body {
     align-items: center;
     width: 100px;
     height: 40px;
+    margin-bottom: 10px;
     border-radius: 2px;
     background: rgba(170, 170, 170, 0.85);
     text-decoration: none;
