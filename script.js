@@ -5,16 +5,16 @@ const spoilerL = document.getElementById('spoilerLeft');
 const spoilerR = document.getElementById('spoilerRight');
 const educationStyle = getComputedStyle(education);
 
-function spoiler() {
+function spoiler(element) {
     if (educationStyle.height === '75px') {
-        education.style.height = '350px';
-        spoilerL.className = 'education__control__spoiler--left-close';
-        spoilerR.className = 'education__control__spoiler--right-close';
+        education.style.height = 'auto';
+        spoilerL.className = 'control__spoiler--left-close';
+        spoilerR.className = 'control__spoiler--right-close';
 
-    } else if (educationStyle.height === '350px') {
+    } else if (+(educationStyle.height.slice(0, -2)) > 75) {
         education.style.height = '75px';
-        spoilerL.className = 'education__control__spoiler--left';
-        spoilerR.className = 'education__control__spoiler--right';
+        spoilerL.className = 'control__spoiler--left';
+        spoilerR.className = 'control__spoiler--right';
     }
 }
 controls.addEventListener('click', spoiler);
