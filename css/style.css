@@ -73,7 +73,8 @@ body {
     padding-bottom: 30px;
     font-family: "DM Sans", calibri, sans-serif;
     font-size: 20px;
-    line-height: 22px; }
+    line-height: 22px;
+    text-indent: 20px; }
     .spoiler-list__info ol {
       margin-top: 25px;
       font-family: "DM Sans", calibri, sans-serif;
