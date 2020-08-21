@@ -1,0 +1,36 @@
+{
+    "projects": [
+        {
+            "title": "Repair Design Project",
+            "description": "- Interactive elements<br>- YouTube video form<br>- Submit forms<br>- Desktop and mobile<br>- Mail, phone, instagram links",
+            "preview": "/projects/repair-design-project.png",
+            "stack": "HTML, CSS (SCSS)",
+            "deployLink": "https://pavel232.github.io/repair-design-project/",
+            "githubLink": "https://github.com/pavel232/repair-design-project"
+        },
+        {
+            "title": "Fancy Weather",
+            "description": "- Using OpenWeatherMap, Yandex Map, Unsplash API's<br>- Current weather background image<br>- Current place, date and time<br>- Today temperature, description and icons<br>- Weather for 3 days<br>- Celsius and Fahrenheit<br>- RU, EN and BE languages<br>- Adaptive design",
+            "preview": "/projects/fancy-weather.png",
+            "stack": "JavaScript, HTML, CSS (SCSS)",
+            "deployLink": "https://pavel232.github.io/weather/",
+            "githubLink": "https://github.com/pavel232/weather"
+        },
+        {
+            "title": "Simple Piskel Clone",
+            "description": "Piskel is a free online editor for animated sprites & pixel art.<br>Used by Canvas. 3 field sizes: 32x32, 64x64 and 128x128. Animation speed control. Various painting tools and size of pen. Adding, removing, moving frames. Drag'n'Drop. Saving animation to file. Google authorization option.",
+            "preview": "/projects/simple-piskel-clone.png",
+            "stack": "JavaScript, HTML, CSS (SCSS)",
+            "deployLink": "https://pavel232.github.io/Simple-Piskel-Clone/",
+            "githubLink": "https://github.com/pavel232/Simple-Piskel-Clone"
+        },
+        {
+            "title": "Culture Portal",
+            "description": "This project is about the photographers of Belarus.<br>Developed by a team of 5 people using Angular and Material UI. All data is stored in Google Firebase. Various third party libraries are used, Routing, Custom pipes and RxJS. Support for Russian, English and Belarusian languages ​​using ngx-translate. Pretter code formatter.",
+            "preview": "/projects/culture-portal.png",
+            "stack": "Angular",
+            "deployLink": "https://angular-group4-culture-portal.netlify.app/main",
+            "githubLink": "https://github.com/Angular-2020q1-group4/culture-portal"
+        }
+    ]
+}

@@ -23,116 +23,65 @@
         </div>
     </div>
 
-    <div id="education" class="education">
-        <div id="control" class="control">
+    <div class="spoiler-list">
+        <div id="control-education" class="control">
             <span class="control__span">Education</span>
             <div class="control__spoiler">
-                <div id="spoilerLeft" class="control__spoiler--left"></div>
-                <div id="spoilerRight" class="control__spoiler--right"></div>
+                <div class="control__spoiler--left"></div>
+                <div class="control__spoiler--right"></div>
             </div>
         </div>
-        <div class="education__info">
+        <div class="spoiler-list__info">
             <ol>School</ol>
-            <li>1998-2007</li>
+                <li>1998-2007</li>
             <ol>College</ol>
-            <li>2007-2011</li>
+                <li>2007-2011</li>
             <ol>University</ol>
-            <li>2011-2017 - BSUIR, FACULTY OF COMPUTER-AIDED DESIGN</li>
-            <li>2017-2019 - BSUIR, FACULTY OF COMPUTER-AIDED DESIGN, Master Degree</li>
-            <ol>RSSchool Courses</ol>
-            <li><a href="https://app.rs.school/certificate/jg4mcw2y" target="_blank">2019-2020 JavaScript</a></li>
-            <li><a href="https://app.rs.school/certificate/oix753kb" target="_blank">2020-2020 Angular</a></li>
+                <li>2011-2017 - BSUIR, FACULTY OF COMPUTER-AIDED DESIGN</li>
+                <li>2017-2019 - BSUIR, FACULTY OF COMPUTER-AIDED DESIGN, Master Degree</li>
+            <ol>Rolling Scopes School courses</ol>
+                <li><a href="https://app.rs.school/certificate/jg4mcw2y" target="_blank">09.2019-02.2020 JavaScript</a></li>
+                <li><a href="https://app.rs.school/certificate/oix753kb" target="_blank">02.2020-03.2020 Angular</a></li>
+            <ol>Others courses</ol>
+                <li>Harvard CS50</li>
+                <li>IT-Academy Database Basic</li>
         </div>
     </div>
-<!-- 
-    <div id="education" class="information">
-        <div id="control" class="information__control">
-            <span class="information__control__span">About me</span>
-            <div class="information__control__spoiler">
-                <div id="spoilerLeft" class="information__control__spoiler--left"></div>
-                <div id="spoilerRight" class="information__control__spoiler--right"></div>
+
+    <div class="spoiler-list">
+        <div id="control-about" class="control">
+            <span class="control__span">About me</span>
+            <div class="control__spoiler">
+                <div class="control__spoiler--left"></div>
+                <div class="control__spoiler--right"></div>
             </div>
         </div>
-        <div class="information--info">
-            <ol>School</ol>
-            <li>1998-2007</li>
-            <ol>University</ol>
-            <li>2011-2019</li>
-            <ol>RSSchool Courses</ol>
-            <li>2019-2020</li>
+        <div class="spoiler-list__info">
+            It’s all start with a question: «Why there are so many ugly and inconvenient apps on the Web?».
+And I decided to answer how they are created - from prototype to development.
+
+In 2017 I became familiar with the basic concepts of HTML/CSS and Javascript.
+In 2018 I joined EPAM’s internal Front-end Development Training, but my knowledge wasn’t enougth to start work in the company for that time.
+In September 2019 I joined The Rolling Scopes School and my knowledges get much stronger. But something was wrong. I wanted to be on the other side of the process and to take part in creating the app not only as a developer. I wanted to have an impact on the app/website concept.
+At the end of the course, I learned about the recruitment in DesignSpot School and I had a choice - to study the development or follow passion.
+I tried to combine, but after few weeks I realized that design is what really inspires me.
+I successfully finished first step of DesignSpot School and l’m not going to stop there.
+I continue to study theory and practice constantly, listen to podcasts and read all kinds of books about design.
+I’m happy that I do what I really love!
         </div>
-    </div> -->
+    </div>
 
     <div class="projects">
         <div class="projects__heading">
             <h2>Projects</h2>
-            <button id="show">Show more</button>
+            <button id="show">Hide info</button>
         </div>
-        <div class="projects__slider">
-            <div id="prev" class="projects__slider__nav prev">&lt;</div>
-            <div class="projects__slider__container">
-                <div id="theyalow" class="projects__slider__container__project active">
-                    <div class="projects__slider__container__project--info">
-                        <h2>Theyalow</h2>
-                        <ul>
-                            <li>- Difficult level 1</li>
-                            <li>- Interactive elements</li>
-                            <li>- Desktop and mobile</li>
-                        </ul>
-                        <h3>Click on image to see this project &gt;</h3>
-                    </div>
-                    <a href="./projects/theyalow.html"><img src="assets/theyalow.png" alt="Project 1"></a>
-                </div>
-                <div id="repair" class="projects__slider__container__project">
-                    <div class="projects__slider__container__project--info">
-                        <h2>Repair Design Project</h2>
-                        <ul>
-                            <li>- Difficult level 3</li>
-                            <li>- Interactive navbar and footer</li>
-                            <li>- Interactive elements</li>
-                            <li>- YouTube video form</li>
-                            <li>- Submit forms</li>
-                            <li>- Desktop and mobile</li>
-                            <li>- Mail, phone, instagram links</li>
-                        </ul>
-                        <h3>Click on image to see this project &gt;</h3>
-                    </div>
-                    <a href="./projects/repair.html"><img src="assets/repair-design-project.png" alt="Project 1"></a>
-                </div>
-            </div>
-            <div id="next" class="projects__slider__nav next">&gt;</div>
+        <div class="slider">
+            <div id="slider-wrapper" class="slider__wrapper"></div>
+            <div id="slider-dots" class="slider__dots"></div>
         </div>
-
-        <div id="swiper" class="projects__swiper">
-            <div id='theyalowMobile' class="projects__swiper__project mobile-active">
-                <div class="projects__swiper__project__info">
-                    <h2>Theyalow</h2>
-                        <ul>
-                            <li>- Difficult level 1</li>
-                            <li>- Interactive elements</li>
-                            <li>- Desktop and mobile</li>
-                        </ul>
-                    <h3>Swipe to see the next project, tap to open</h3>
-                </div>
-                <a href="./projects/theyalow.html"><img src="assets/theyalow.png" alt="Project 1"></a>
-            </div>
-            <div id="repairMobile" class="projects__swiper__project">
-                <div class="projects__swiper__project__info">
-                    <h2>Repair Design Project</h2>
-                    <ul>
-                        <li>- Difficult level 3</li>
-                        <li>- Interactive navbar and footer</li>
-                        <li>- Interactive elements</li>
-                        <li>- YouTube video form</li>
-                        <li>- Submit forms</li>
-                        <li>- Desktop and mobile</li>
-                        <li>- Mail, phone, instagram links</li>
-                    </ul>
-                    <h3>Swipe to see the next project, tap to open</h3>
-                </div>
-                <a href="./projects/repair.html"><img src="assets/repair-design-project.png" alt="Project 1"></a>
-            </div>
-        </div>
+        <div id="prev" class="slider-navigation prev">&lt;</div>
+        <div id="next" class="slider-navigation next">&gt;</div>
     </div>
 
     <div class="footer">
