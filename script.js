@@ -61,7 +61,7 @@ function createSlide(slideObj) {
                             </p>
                         </div>
                         <a class="project__preview-wrapper" href="${slideObj.deployLink}" target="_blank">
-                            <img class="project__preview" src="${slideObj.preview}">
+                            <img class="project__preview" src=".${slideObj.preview}">
                         </a>`
     return project;
 }
