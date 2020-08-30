@@ -27,6 +27,7 @@ body {
 }
 
 .main {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     margin: 15px 0px 0px 0px;
@@ -56,6 +57,13 @@ body {
         color: #555555;
     }
 
+    &__job {
+        font-family: "DM Sans", calibri, sans-serif;
+        font-size: 17px;
+        text-align: left;
+        color: #555555;
+    }
+
     &__social {
         display: flex;
         justify-content: space-between;
@@ -68,16 +76,23 @@ body {
             height: 50px;
 
             &:hover {
-                transform: scale(1.3);
+                transform: scale(1.2);
                 transition: all 200ms;
             }
             &:active {
-                transform: scale(1.2);
+                transform: scale(1.1);
                 transition: all 100ms;
             }
             
         }
     }
+}
+
+.download-cv {
+    width: 25px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
 
 .spoiler-list {
