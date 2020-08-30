@@ -74,15 +74,6 @@ body {
         & img {
             width: 50px;
             height: 50px;
-
-            &:hover {
-                transform: scale(1.2);
-                transition: all 200ms;
-            }
-            &:active {
-                transform: scale(1.1);
-                transition: all 100ms;
-            }
         }
     }
 }
@@ -270,12 +261,6 @@ body {
     font-size: 40px;
     color: #555555;
     user-select: none;
-
-    &:hover {
-        cursor: pointer;
-        transform: scale(1.2);
-        transition: all 200ms;
-    }
 }
 
 .prev {
@@ -344,6 +329,19 @@ body {
         font-family: $font-default;
         font-size: 16px;
         color: #555555;
+    }
+}
+
+.icon-hover {
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.2);
+        transition: all 200ms;
+    }
+    &:active {
+        transform: scale(1.1);
+        transition: all 100ms;
     }
 }
 

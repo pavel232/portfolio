@@ -59,12 +59,6 @@ body {
     .info-block__social img {
       width: 50px;
       height: 50px; }
-      .info-block__social img:hover {
-        transform: scale(1.2);
-        transition: all 200ms; }
-      .info-block__social img:active {
-        transform: scale(1.1);
-        transition: all 100ms; }
 
 .download-cv {
   width: 25px;
@@ -213,10 +207,6 @@ body {
   font-size: 40px;
   color: #555555;
   user-select: none; }
-  .slider-navigation:hover {
-    cursor: pointer;
-    transform: scale(1.2);
-    transition: all 200ms; }
 
 .prev {
   left: 20px; }
@@ -266,6 +256,15 @@ body {
     font-family: "DM Sans", calibri, sans-serif;
     font-size: 16px;
     color: #555555; }
+
+.icon-hover {
+  cursor: pointer; }
+  .icon-hover:hover {
+    transform: scale(1.2);
+    transition: all 200ms; }
+  .icon-hover:active {
+    transform: scale(1.1);
+    transition: all 100ms; }
 
 @media screen and (max-width: 1010px) {
   .project {
