@@ -376,6 +376,10 @@ body {
 
     .main {
         justify-content: center;
+
+        &__photo {
+            margin-right: 0;
+        }
     }
 
     .projects {

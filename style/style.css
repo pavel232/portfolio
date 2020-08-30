@@ -285,6 +285,8 @@ body {
     width: 100%; }
   .main {
     justify-content: center; }
+    .main__photo {
+      margin-right: 0; }
   .projects button {
     display: block; }
   .project__description-wrapper {
