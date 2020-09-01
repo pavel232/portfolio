@@ -54,11 +54,17 @@ function createSlide(slideObj) {
                             <h2>${slideObj.title}</h2>
                             <p>Technology stack: ${slideObj.stack}</p>
                             <p class="project__description">${slideObj.description}</p>
-                            <p>Click <a href="${slideObj.deployLink}" target="_blank">here</a> to see 
-                                the deploy project or 
-                                <a href="${slideObj.githubLink}" target="_blank">here</a> to 
-                                see GitHub repository.
-                            </p>
+                            <div class="links">
+                                <div class="links__button">
+                                    <a href="${slideObj.deployLink}">Deploy</a>
+                                    <div></div>
+                                </div>
+                                <div class="links__button">
+                                    <a href="${slideObj.githubLink}">Repository</a>
+                                    <div></div>
+                                </div>
+                            </div>
+
                         </div>
                         <a class="project__preview-wrapper" href="${slideObj.deployLink}" target="_blank">
                             <img class="project__preview" src=".${slideObj.preview}">

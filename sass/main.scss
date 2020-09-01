@@ -24,6 +24,7 @@ body {
     justify-content: center;
     width: 80%;
     background-color: $color-background;
+    color: #555555;
 }
 
 .main {
@@ -54,14 +55,12 @@ body {
         font-size: 52px;
         font-weight: 500;
         text-align: left;
-        color: #555555;
     }
 
     &__job {
         font-family: "DM Sans", calibri, sans-serif;
         font-size: 17px;
         text-align: left;
-        color: #555555;
     }
 
     &__social {
@@ -72,8 +71,8 @@ body {
         margin-top: 10px;
 
         & img {
-            width: 50px;
-            height: 50px;
+            width: 40px;
+            height: 40px;
         }
     }
 }
@@ -106,7 +105,6 @@ body {
             margin-top: 25px;
             font-family: $font-default;
             font-size: 23px;
-            color: #555555;
             font-weight: 600;
         }
 
@@ -114,7 +112,6 @@ body {
             margin-top: 5px;
             font-family: $font-default;
             font-size: 20px;
-            color: #555555;
         }
     }
 }
@@ -133,7 +130,6 @@ body {
     &__span {
         font-family: $font-default;
         font-size: 28px;
-        color: #555555;
     }
 
     &__spoiler {
@@ -196,19 +192,6 @@ body {
         & h2 {
             font-family: $font-default;
             font-size: 28px;
-            color: #555555;
-        }
-        & button {
-            display: none;
-            border-radius: 5px;
-            background-color: white;
-            font-family: $font-default;
-            font-size: 15px;
-            color: #555555;
-
-            &:hover {
-                cursor: pointer;
-            }
         }
     }
 }
@@ -259,7 +242,6 @@ body {
     align-items: center;
     font-family: $font-default;
     font-size: 40px;
-    color: #555555;
     user-select: none;
 }
 
@@ -301,6 +283,16 @@ body {
         font-style: italic;
     }
 
+    &__link {
+        font-family: $font-default;
+        text-decoration: none;
+
+        &:hover {
+            border-bottom: 1px solid #000;
+            transform: scale3d(2);
+        }
+    }
+
     &__preview-wrapper {
         max-width: 332px;
         max-height: 461px;
@@ -314,6 +306,44 @@ body {
         &:hover {
             cursor: pointer;
             transform: scale(1.05);
+        }
+    }
+}
+
+.links {
+    display: flex;
+
+    &__button {
+        max-width: fit-content;
+        display: flex;
+        flex-direction: column;
+        margin-right: 15px;
+        padding: 5px;
+        overflow: hidden;
+
+        &:hover {
+            div {
+                transform: translateX(-60%);
+            }
+        }
+
+        & a {
+            font-family: $font-default;
+            font-size: 20px;
+            text-decoration: none;
+            margin-bottom: 3px;
+            z-index: 1;
+        }
+
+        & div {
+            width: 100%;
+            height: 50px;
+            margin-top: -48px;
+            border-bottom: 2px solid black;
+            background-color: rgb(218, 218, 218);
+            transform: translateX(110%);
+            transition: transform 300ms;
+            z-index: 0;
         }
     }
 }
