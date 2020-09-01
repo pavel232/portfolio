@@ -238,7 +238,7 @@ body {
       transform: scale(1.05); }
 
 .links {
-  display: flex; }
+  margin-bottom: 15px; }
   .links__button {
     max-width: fit-content;
     display: flex;
