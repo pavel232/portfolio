@@ -25,6 +25,14 @@
             "githubLink": "https://github.com/pavel232/Simple-Piskel-Clone"
         },
         {
+            "title": "YouTube Client",
+            "description": "- Routing<br>- Services<br>- Custom pipes<br>- Login form (use any username and password to LogIn)<br>- RxJS and Observable<br>",
+            "preview": "/projects/youtube-client.png",
+            "stack": "Angular",
+            "deployLink": "youtube-client-e5ca3f.netlify.app",
+            "githubLink": "https://github.com/pavel232/youtube-client"
+        },
+        {
             "title": "Culture Portal",
             "description": "This project is about the photographers of Belarus.<br>Developed by a team of 5 people using Angular and Material UI. All data is stored in Google Firebase. Various third party libraries are used, Routing, Custom pipes and RxJS. Support for Russian, English and Belarusian languages ​​using ngx-translate. Pretter code formatter.",
             "preview": "/projects/culture-portal.png",
