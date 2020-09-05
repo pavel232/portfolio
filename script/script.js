@@ -56,11 +56,11 @@ function createSlide(slideObj) {
                             <p class="project__description">${slideObj.description}</p>
                             <div class="links">
                                 <div class="links__button">
-                                    <a href="${slideObj.deployLink}">Deploy</a>
+                                    <a href="${slideObj.deployLink}" target="_blank">Deploy</a>
                                     <div></div>
                                 </div>
                                 <div class="links__button">
-                                    <a href="${slideObj.githubLink}">Repository</a>
+                                    <a href="${slideObj.githubLink}" target="_blank">Repository</a>
                                     <div></div>
                                 </div>
                             </div>
