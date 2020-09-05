@@ -29,7 +29,7 @@
             "description": "- Routing<br>- Services<br>- Custom pipes<br>- Login form (use any username and password to LogIn)<br>- RxJS and Observable<br>",
             "preview": "/projects/youtube-client.png",
             "stack": "Angular",
-            "deployLink": "youtube-client-e5ca3f.netlify.app",
+            "deployLink": "https://youtube-client-e5ca3f.netlify.app",
             "githubLink": "https://github.com/pavel232/youtube-client"
         },
         {
