@@ -2,15 +2,23 @@
     "projects": [
         {
             "title": "Repair Design Project",
-            "description": "- Interactive elements<br>- YouTube video form<br>- Submit forms<br>- Desktop and mobile<br>- Mail, phone, instagram links",
+            "description": "- Interactive elements<br>- YouTube video form<br>- Submit forms<br>- Responsive layout<br>- Mail, phone, instagram links",
             "preview": "/projects/repair-design-project.png",
             "stack": "HTML, CSS (SCSS)",
             "deployLink": "https://pavel232.github.io/repair-design-project/",
             "githubLink": "https://github.com/pavel232/repair-design-project"
         },
         {
+            "title": "Singolo",
+            "description": "- Interactive elements<br>- Submit form<br>- Responsive layout<br>- BEM<br>- A bit jQuery :)",
+            "preview": "/projects/singolo.png",
+            "stack": "HTML, CSS (SCSS), jQuery",
+            "deployLink": "https://pavel232.github.io/singolo/",
+            "githubLink": "https://github.com/pavel232/singolo"
+        },
+        {
             "title": "Fancy Weather",
-            "description": "- Using OpenWeatherMap, Yandex Map, Unsplash API's<br>- Current weather background image<br>- Current place, date and time<br>- Today temperature, description and icons<br>- Weather for 3 days<br>- Celsius and Fahrenheit<br>- RU, EN and BE languages<br>- Adaptive design",
+            "description": "- Using OpenWeatherMap, Yandex Map, Unsplash API's<br>- Current weather background image<br>- Current place, date and time<br>- Today temperature, description and icons<br>- Weather for 3 days<br>- Celsius and Fahrenheit<br>- RU, EN and BE languages<br>- Responsive layout",
             "preview": "/projects/fancy-weather.png",
             "stack": "JavaScript, HTML, CSS (SCSS)",
             "deployLink": "https://pavel232.github.io/weather/",
