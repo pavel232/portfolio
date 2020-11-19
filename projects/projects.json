@@ -47,6 +47,22 @@
             "stack": "Angular",
             "deployLink": "https://angular-group4-culture-portal.netlify.app/main",
             "githubLink": "https://github.com/Angular-2020q1-group4/culture-portal"
+        },
+        {
+            "title": "Caesar cipher CLI tool",
+            "description": "It's a CLI tool that encode and decode a text by Caesar cipher.",
+            "preview": "",
+            "stack": "NodeJS",
+            "deployLink": "https://github.com/pavel232/caesar-cipher-cli",
+            "githubLink": "https://github.com/pavel232/caesar-cipher-cli"
+        },
+        {
+            "title": "NodeJS Express Rest Service",
+            "description": "It's a simple ToDo List web server. Application based on Express framework and mongoDB. Uses Rest API, logging requests and errors, authorization, bcrypt to passwords hash and JWT, Mongoose as DB driver.",
+            "preview": "",
+            "stack": "NodeJS. Express, MongoDB, Mongoose, Bcrypt, JWT",
+            "deployLink": "https://github.com/pavel232/rss-node-js",
+            "githubLink": "https://github.com/pavel232/rss-node-js"
         }
     ]
 }
